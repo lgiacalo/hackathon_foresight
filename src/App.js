@@ -9,7 +9,7 @@ import Product from './pages/Product';
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
 
       <Switch>
@@ -32,7 +32,7 @@ function App() {
       </Switch>
 
       <Footer />
-    </>
+    </div>
   );
 }
 
