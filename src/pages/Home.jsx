@@ -14,8 +14,6 @@ const Home = () => {
       <h2>Home Page</h2>
       <Link to="/categories">Liste Catégories</Link> |
       <Link to="/toilettes-occidentaux">Catégorie Toilette sèche</Link> |
-      <Link to="/toilettes-occidentaux/produit1">Toilette sèche produit 1</Link>{" "}
-      |
       <section>
         <Link to="/" className="animation-big">
           <img

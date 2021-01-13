@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import NotFound from "./NotFound";
 import data from "../assets/toilets.json";
 
 const Product = () => {
@@ -20,7 +21,7 @@ const Product = () => {
     }
   }, [slug_category, slug_product]);
 
-  if (!product) return <p>Produit non trouvé</p>;
+  if (!product) return <NotFound />;
 
   return (
     <article>
