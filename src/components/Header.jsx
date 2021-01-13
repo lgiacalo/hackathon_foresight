@@ -1,8 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import logoBrand from "../assets/cabinet-logo.svg";
 
-const Header = () => {
+function Header () {
+
+  const [open, setOpen] = useState(false);
+
+  const handleClick = () =>{
+    open ? setOpen(false) : setOpen(true);
+  }
+
   return (
     <header>
       <h1>
@@ -17,12 +24,12 @@ const Header = () => {
           placeholder="🔎 Je recherche..."
         />
         <nav>
-          <input id="menu-toggle" className="menu-toggle" type="checkbox" />
-          <label htmlFor="menu-toggle">
-            <span className="icon-menu">☰</span>
-            <span className="icon-cross">☰</span>
-          </label>
-          <ul>
+          {/* <input id="menu-toggle" className="menu-toggle" type="checkbox" onClick={handleClick} /> */}
+          <button className="menu-toggle" onClick={handleClick}>
+            <span className={open ? "hidden" : "shown"}>☰</span>
+            <span className={open ? "shown" : "hidden"}>❌</span>
+          </button>
+          <ul className={open ? "shown" : "hidden"}>
             <li>
               <Link to="/" title="categorie">
                 categorie1
