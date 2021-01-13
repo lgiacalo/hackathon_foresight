@@ -2,6 +2,7 @@
   box-sizing: border-box;
   display: flex;
   flex-flow: column nowrap;
+  padding-bottom: 3rem;
 }
 .categoryContainer nav {
   width: 100%;
@@ -11,8 +12,10 @@
 .categoryContainer h2 {
   width: 100%;
   text-align: center;
+  padding-bottom: 0.5rem;
   margin-bottom: 1rem;
   font-size: 1rem;
+  border-bottom: solid 3px #000;
 }
 .categoryContainer p {
   text-align: justify;
@@ -30,7 +33,7 @@
   box-sizing: border-box;
   width: 45%;
   height: 12rem;
-  border: 0.5rem solid hsla(192, 57%, 20%, 0.849);
+  border: 0.5rem solid #000;
   margin: 0.25rem 0;
   display: flex;
   flex-flow: column nowrap;
@@ -38,7 +41,7 @@
   align-items: center;
 }
 .multipleCategoriesContainer article p {
-  text-align: justify;
+  text-align: center;
   padding: 0 0.25rem;
   margin-top: 0.5rem;
 }
