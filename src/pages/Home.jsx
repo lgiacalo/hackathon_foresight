@@ -4,7 +4,7 @@ import "../css/home.css";
 
 const Home = () => {
   return (
-    <div className="Home">
+    <div className="pageContainer Home">
       <h2>Home Page</h2>
       <Link to="/categories">Liste Catégories</Link> |
       <Link to="/toilettes-occidentaux">Catégorie Toilette sèche</Link> |

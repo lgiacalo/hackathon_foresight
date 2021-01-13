@@ -5,7 +5,7 @@ import data from "../assets/toilets.json";
 
 const Categories = () => {
   return (
-    <div>
+    <div className="pageContainer">
       <nav>
         <Link to="/">Accueil</Link> |
       </nav>

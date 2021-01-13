@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400&display=swap&family=Montserrat&display=swap");
 
+.pageContainer {
+  width: 100%;
+  position: absolute;
+  top: 15rem;
+}
 /* ------ HEADER ------ */
 
 header {
   background-color: rgb(247, 247, 247);
   padding: 1.5rem;
+  height: 11rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -15,7 +21,7 @@ header {
 
 header nav ul li a {
   text-decoration: none;
-  color: rgb(37, 37, 37);
+  color: rgb(247, 247, 247);
 }
 header .logo {
   margin-bottom: 1rem;
@@ -35,7 +41,7 @@ header .search::placeholder {
 
 /* ------ NAVBAR ------ */
 
-header .icon-menu {
+/* header .icon-menu {
   display: inline-block;
 }
 header .icon-menu:before {
@@ -64,9 +70,44 @@ header nav ul {
   margin: 0;
   overflow: hidden;
   z-index: 20;
+} */
+.menu {
+  width: 8rem;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0;
+  z-index: 10;
+}
+.menu-toggle {
+  border: none;
+  background-color: hsla(192, 57%, 20%, 0.849);
+  color: rgb(247, 247, 247);
+  width: 4rem;
+  height: 2rem;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+.menu-toggle:hover,
+.menu-list:hover {
+  cursor: pointer;
+}
+.menu-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0;
+  background-color: hsla(192, 57%, 20%, 0.849);
+  z-index: 10;
+}
+.menu-list li {
+  padding: 0.5rem 0;
+  text-align: center;
+}
+.hidden {
+  display: none;
 }
 
-nav input[type="checkbox"] {
+/* nav input[type="checkbox"] {
   display: none;
 }
 
@@ -80,7 +121,7 @@ nav input[type="checkbox"]:checked + label .icon-cross {
 
 nav span {
   display: inline-block;
-}
+} */
 
 /* ------------ */
 
