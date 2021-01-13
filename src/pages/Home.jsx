@@ -1,10 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import "../css/home.css";
 
 const Home = () => {
   return (
     <div className="pageContainer Home">
+      <Helmet>
+        <title>Cabinett</title>
+        <link rel="canonical" href="https://cabinett.netlify.app/" />
+        <meta name="description" content="Description Cabinett " />
+      </Helmet>
       <h2>Home Page</h2>
       <Link to="/categories">Liste Catégories</Link> |
       <Link to="/toilettes-occidentaux">Catégorie Toilette sèche</Link> |
