@@ -23,13 +23,13 @@ function Header () {
           type="text"
           placeholder="🔎 Je recherche..."
         />
-        <nav>
+        <nav className="menu">
           {/* <input id="menu-toggle" className="menu-toggle" type="checkbox" onClick={handleClick} /> */}
           <button className="menu-toggle" onClick={handleClick}>
             <span className={open ? "hidden" : "shown"}>☰</span>
             <span className={open ? "shown" : "hidden"}>❌</span>
           </button>
-          <ul className={open ? "shown" : "hidden"}>
+          <ul className={open ? "menu-list" : "hidden"}>
             <li>
               <Link to="/" title="categorie">
                 categorie1

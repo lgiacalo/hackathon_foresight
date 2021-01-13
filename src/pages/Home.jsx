@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <>
+    <div className="pageContainer">
       <h2>Home Page</h2>
       <Link to="/categories">Liste Catégories</Link> |
       <Link to="/toilettes-occidentaux">Catégorie Toilette sèche</Link> |
@@ -16,7 +16,7 @@ const Home = () => {
           alt=""
         />
       </section>
-    </>
+    </div>
   );
 };
 
