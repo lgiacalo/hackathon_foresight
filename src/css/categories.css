@@ -14,6 +14,11 @@
   margin-bottom: 1rem;
   font-size: 1rem;
 }
+.categoryContainer p {
+  text-align: justify;
+  padding: 0 0.5rem;
+  margin-bottom: 1rem;
+}
 .multipleCategoriesContainer {
   box-sizing: border-box;
   display: flex;
@@ -24,12 +29,16 @@
 .multipleCategoriesContainer article {
   box-sizing: border-box;
   width: 45%;
-  height: 10rem;
-  border: 0.1rem solid hsla(192, 57%, 20%, 0.849);
-  border-radius: 0.5rem;
+  height: 12rem;
+  border: 0.5rem solid hsla(192, 57%, 20%, 0.849);
   margin: 0.25rem 0;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
+}
+.multipleCategoriesContainer article p {
+  text-align: justify;
+  padding: 0 0.25rem;
+  margin-top: 0.5rem;
 }

@@ -21,6 +21,7 @@ const Categories = () => {
       </nav>
 
       <h2>Liste des Categories</h2>
+      <p>Que ce soit pour leurs origines géographiques ou leur modernité, ils existent plusieurs catégories de toilettes. Envie d'un retour à la nature ou au contraire du nec plus ultra de la technologie ? Envie de rester sur des formats habituels ou de tenter l'aventure accroupi ? Vous trouverez les WC qu'il vous faut dans la large gamme Cabi.net</p>
       <section className="multipleCategoriesContainer">
       {data.categories.map((c) => (
         <CategorieCard key={c.slug_category} {...c} />

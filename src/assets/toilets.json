@@ -3,6 +3,7 @@
     {
       "name": "Occidentaux",
       "slug_category": "toilettes-occidentaux",
+      "description": "Les toilettes occidentales sont celles que nous avons le plus l'habitude de voir dans nos maisons.",
       "products": [
         {
           "slug_product": "isis-swarovski",
@@ -97,6 +98,7 @@
     {
       "name": "Classiques",
       "slug_category": "toilettes-classiques",
+      "description": "Souvent appelées toilettes à la turque en France, ces toilettes sont très répandues dans le monde.",
       "products": [
         {
           "slug_product": "bourguignon-jacob-delafon",
@@ -127,6 +129,7 @@
     {
       "name": "Japonais",
       "slug_category": "toilettes-japonais",
+      "description": "Les toilettes japonaises sont les plus modernes avec de nombreuses fonctionnalités pour renforcer l'hygiène.",
       "products": [
         {
           "slug_product": "laita-premium-geberit",
@@ -197,6 +200,7 @@
     {
       "name": "Sèches",
       "slug_category": "toilettes-seches",
+      "description": "Ne nécessitant aucune consommation d'eau, les toilettes sèches sont en plein boum du fait des considération écologiques.",
       "products": [
         {
           "slug_product": "chene-seche",
