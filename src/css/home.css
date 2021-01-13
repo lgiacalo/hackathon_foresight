@@ -8,19 +8,28 @@
   flex-direction: column;
   text-align: center;
 }
-.Home > section > div {
+.animation-phare {
+  width: 90%;
+  margin: 0 5% 2% 5%;
+  height: auto;
+}
+.animation-phare img {
   width: 100%;
+}
+.animation-dual-group {
+  width: 90%;
+  margin: 0 5% 2% 5%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-between;
 }
-.animation-big {
-  width: 90%;
+.animation-dual {
+  width: 48%;
   height: auto;
 }
-.animation-triplet {
-  width: 40%;
-  height: auto;
+.animation-dual img {
+  width: 100%;
 }
 .Home .productImg {
   width: 300px;
@@ -30,4 +39,30 @@
 .Home .productCard {
   background-color: rgb(247, 247, 247);
   width: 90%;
+}
+
+@media only screen and (min-width: 800px) {
+  .Home > section {
+    width: 90%;
+    margin: 0 5% 2% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .animation-phare {
+    width: 69%;
+    margin: 0;
+  }
+  .animation-dual-group {
+    width: 30%;
+    margin: 0 0 5% 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .animation-dual {
+    width: 100%;
+    margin: 0 0 2% 0;
+  }
 }

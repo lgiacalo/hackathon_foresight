@@ -11,34 +11,33 @@ const Home = () => {
       <Link to="/toilettes-occidentaux/produit1">Toilette sèche produit 1</Link>{" "}
       |
       <section>
-        <Link to="/" className="animation-big">
-          <img
-            src="http://via.placeholder.com/800x250.png?text=Focus+sur+les+economies+d+eau"
-            alt=""
-          />
-        </Link>
-        <div>
-          <Link to="/">
+        <article className="animation-phare">
+          <Link to="/" title="">
             <img
-              className="animation-triplet"
-              src="http://via.placeholder.com/800x350.png?text=Voir+tous+nos+guides"
+              src="http://via.placeholder.com/800x305.png?text=Focus+sur+les+economies+d+eau"
               alt=""
             />
           </Link>
-          <Link to="/">
-            <img
-              className="animation-triplet"
-              src="http://via.placeholder.com/800x350.png?text=Toilettes+sans+eau"
-              alt=""
-            />
-          </Link>
-          <Link to="/">
-            <img
-              className="animation-triplet"
-              src="http://via.placeholder.com/800x350.png?text=Toilettes-japonaises"
-              alt=""
-            />
-          </Link>
+        </article>
+        <div className="animation-dual-group">
+          <article className="animation-dual">
+            <Link to="/" title="">
+              <img
+                className=""
+                src="http://via.placeholder.com/800x342.png?text=Voir+tous+nos+guides"
+                alt=""
+              />
+            </Link>
+          </article>
+          <article className="animation-dual">
+            <Link to="/" title="">
+              <img
+                className="animation-triplet"
+                src="http://via.placeholder.com/800x342.png?text=Toilettes+sans+eau"
+                alt=""
+              />
+            </Link>
+          </article>
         </div>
       </section>
       <article className="productCard">
