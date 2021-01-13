@@ -1,0 +1,33 @@
+.Home {
+  text-align: center;
+}
+.Home > section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+.Home > section > div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.animation-big {
+  width: 90%;
+  height: auto;
+}
+.animation-triplet {
+  width: 40%;
+  height: auto;
+}
+.Home .productImg {
+  width: 300px;
+  height: auto;
+  border: solid 10px #000;
+}
+.Home .productCard {
+  background-color: rgb(247, 247, 247);
+  width: 90%;
+}
