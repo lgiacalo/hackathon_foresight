@@ -18,7 +18,7 @@ const Home = () => {
         <article className="animation-phare">
           <Link to="/" title="">
             <img
-              src="http://via.placeholder.com/800x305.png?text=Focus+sur+les+economies+d+eau"
+              src="https://via.placeholder.com/800x305.png?text=Focus+sur+les+economies+d+eau"
               alt=""
             />
           </Link>
@@ -28,7 +28,7 @@ const Home = () => {
             <Link to="/" title="">
               <img
                 className=""
-                src="http://via.placeholder.com/800x342.png?text=Voir+tous+nos+guides"
+                src="https://via.placeholder.com/800x342.png?text=Voir+tous+nos+guides"
                 alt=""
               />
             </Link>
@@ -37,7 +37,7 @@ const Home = () => {
             <Link to="/" title="">
               <img
                 className="animation-triplet"
-                src="http://via.placeholder.com/800x342.png?text=Toilettes+sans+eau"
+                src="https://via.placeholder.com/800x342.png?text=Toilettes+sans+eau"
                 alt=""
               />
             </Link>
