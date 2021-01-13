@@ -2,37 +2,77 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* ------ HEADER ------ */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  background-color: rgb(228, 228, 228);
+  padding: 1.5rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header .logo {
+  margin-bottom: 1rem;
+}
+header input {
+  width: 100%;
+  font-size: 1.5rem;
+  max-height: 2rem;
+  padding: 0.4rem;
 }
 
-.App-link {
-  color: #61dafb;
+/* ------ NAVBAR ------ */
+
+header .icon-menu {
+  display: inline-block;
+}
+header .icon-menu:before {
+  height: 50px;
+  width: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header .navbar ul {
+  max-height: 0;
+  width: 100%;
+  position: relative;
+  background: hsla(192, 57%, 20%, 0.849);
+  top: 3.9em;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  z-index: 20;
+}
+
+.navbar input[type="checkbox"] {
+  display: none;
+}
+
+.navbar input[type="checkbox"]:not(:checked) + label .icon-menu {
+  display: inline;
+}
+
+.navbar input[type="checkbox"]:checked + label .icon-cross {
+  display: inline;
+}
+
+/* ------------ */
+
+footer {
+  position: relative;
+  bottom: 0;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and(min-width:600px) {
+}
+
+@media only screen and(min-width:600px) {
+}
+
+@media only screen and(min-width:600px) {
 }

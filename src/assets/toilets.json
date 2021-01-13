@@ -1,0 +1,53 @@
+{
+    "european" : {
+        "slug" : "european-toilets",
+        "products" :[
+            {
+                "slug" : "slug",
+                "name" : "name",
+                "brand" : "brand",
+                "price" : 123,
+                "description" : "description",
+                "picture" : "url"
+            },
+            {
+                "slug" : "reve-jacob-delafon",
+                "name" : "Reve",
+                "brand" : "Jacob Delafon",
+                "price" : 889,
+                "description" : "Caractère unique et affirmé avec ses associations de lignes tendues et d'angles doux. Cuvette carénée jusqu'au mur, fixations cachées pour une visibilité et une accessibilité totale. Déclipsable pour un accès aux surfaces rarement nettoyées, équipé d'un frein de chute pour le confort sonore.",
+                "picture" : "https://m1.lmcdn.fr/media/1/5ca647cab7c50577156fa0ba/.jpg?width=1280"
+            },
+            {
+                "slug" : "presquile-jacob-delafon",
+                "name" : "Presqu'île",
+                "brand" : "Jacob Delafon",
+                "price" : 719,
+                "description" : "Lignes douces et élégantes, robinet flotteur silencieux. Déclipsable pour un accès aux surfaces rarement nettoyées, équipé d'un frein de chute pour le confort sonore.",
+                "picture" : "https://m2.lmcdn.fr/media/1/5ca64795475ea745b4e511de/.jpg?width=1280"
+            },
+            {
+                "slug" : "700-bleu-provence",
+                "name" : "Provence '700",
+                "brand" : "Bleu Provence",
+                "price" : 666,
+                "description" : "WC au sol blanc avec réservoir monobloc.",
+                "picture" : "https://media.adeo.com/marketplace/83653933/41c4b4c5495d022e5b1f996333f6df44.jpeg?width=1280"
+            },
+            {
+                "slug" : "slug",
+                "name" : "name",
+                "brand" : "brand",
+                "price" : 123,
+                "description" : "description",
+                "picture" : "url"
+            }
+        ]
+    },
+    "turkish" :[
+
+    ],
+    "japanese" :[
+
+    ]
+}
