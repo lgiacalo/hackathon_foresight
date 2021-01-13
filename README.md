@@ -1,3 +1,8 @@
+CABINETT 
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/600f6401-9543-4d2d-848a-d3adf18cbd3a/deploy-status)](https://app.netlify.com/sites/cabinett/deploys)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
