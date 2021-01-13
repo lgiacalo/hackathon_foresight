@@ -1,12 +1,17 @@
 .Home {
   text-align: center;
 }
+.Home a {
+  text-decoration: none;
+  color: #000;
+}
 .Home > section {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   text-align: center;
+  margin-top: 5%;
 }
 .animation-phare {
   width: 90%;
@@ -36,15 +41,74 @@
   height: auto;
   border: solid 10px #000;
 }
-.Home .productCard {
-  background-color: rgb(247, 247, 247);
+.Home h2 {
+  width: 100%;
+  margin: 5% 0 2% 0;
+  font-size: 1rem;
+  text-align: left;
+  padding-bottom: 0.3rem;
+  border-bottom: solid 3px #000;
+}
+.Home h3 {
+  font-size: 1rem;
+  padding: 0.4rem;
+}
+.Home .bests {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 5% 5% 2% 5%;
+}
+.Home .best-product-list {
+  width: 100%;
+  margin: 2% 0 2% 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Home .best-product-list > a {
+  display: inline-block;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 5% 1%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  font-size: 1.4rem;
+}
+.Home .best-product-card {
+  width: 50%;
+}
+.Home .best-product-card img {
+  width: 80%;
+}
+.Home .best-product-card .best-product-link {
+  text-decoration: none;
+  display: inline-block;
+  width: 80%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 0.3rem;
+}
+
+.Home .chapo {
   width: 90%;
+  text-align: justify;
+  margin: 10% 5% 15% 5%;
+  color: rgb(109, 109, 109);
 }
 
 @media only screen and (min-width: 800px) {
+  .Home h2 {
+    width: 96%;
+    margin: 0 2% 2% 2%;
+    font-size: 1.2rem;
+  }
   .Home > section {
     width: 90%;
-    margin: 0 5% 2% 5%;
+    margin: 1% 5% 2% 5%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -56,7 +120,7 @@
   }
   .animation-dual-group {
     width: 30%;
-    margin: 0 0 5% 0;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -64,5 +128,15 @@
   .animation-dual {
     width: 100%;
     margin: 0 0 2% 0;
+  }
+  .Home .bests {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 5% 5% 5%;
+  }
+  .Home .best-product-list {
+    width: 50%;
+    margin: 0 0% 2% 0%;
   }
 }
