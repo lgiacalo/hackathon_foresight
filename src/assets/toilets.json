@@ -1,195 +1,236 @@
 {
-    "categories" :[
+  "categories": [
+    {
+      "name": "Occidentaux",
+      "slug_category": "toilettes-occidentaux",
+      "products": [
         {
-            "name" : "Occidentaux",
-            "slug_category" : "toilettes-occidentaux",
-            "products" :[
-                {
-                    "slug_product" : "slug",
-                    "name" : "name",
-                    "brand" : "brand",
-                    "price" : 123,
-                    "description" : "description",
-                    "picture" : "url"
-                },
-                {
-                    "slug_product" : "reve-jacob-delafon",
-                    "name" : "Reve",
-                    "brand" : "Jacob Delafon",
-                    "price" : 889,
-                    "description" : "Caractère unique et affirmé avec ses associations de lignes tendues et d'angles doux. Cuvette carénée jusqu'au mur, fixations cachées pour une visibilité et une accessibilité totale. Déclipsable pour un accès aux surfaces rarement nettoyées, équipé d'un frein de chute pour le confort sonore.",
-                    "picture" : "https://m1.lmcdn.fr/media/1/5ca647cab7c50577156fa0ba/.jpg"
-                },
-                {
-                    "slug_product" : "presquile-jacob-delafon",
-                    "name" : "Presqu'île",
-                    "brand" : "Jacob Delafon",
-                    "price" : 719,
-                    "description" : "Lignes douces et élégantes, robinet flotteur silencieux. Déclipsable pour un accès aux surfaces rarement nettoyées, équipé d'un frein de chute pour le confort sonore.",
-                    "picture" : "https://m2.lmcdn.fr/media/1/5ca64795475ea745b4e511de/.jpg"
-                },
-                {
-                    "slug_product" : "700-bleu-provence",
-                    "name" : "Provence '700",
-                    "brand" : "Bleu Provence",
-                    "price" : 666,
-                    "description" : "WC au sol blanc avec réservoir monobloc.",
-                    "picture" : "https://media.adeo.com/marketplace/83653933/41c4b4c5495d022e5b1f996333f6df44.jpeg"
-                },
-                {
-                    "slug_product" : "900-bleu-provence",
-                    "name" : "Provence '900",
-                    "brand" : "Bleu Provence",
-                    "price" : 600,
-                    "description" : "WC au sol blanc (sortie verticale) avec réservoir haut avec couvercle.",
-                    "picture" : "https://media.adeo.com/marketplace/83653867/6e460427800f8f0f77911e42b8c0cce6.jpeg"
-                },
-                {
-                    "slug_product" : "escale-jacob-delafon",
-                    "name" : "Escale",
-                    "brand" : "Jacob Delafon",
-                    "price" : 839,
-                    "description" : "Châssis acier résistant à une charge de 400 Kg, traité anti-corrosion. Cuvette aux formes équilibrées inspirées par l'art asiatique. Abattant équipé d'un système de frein de chute pour une fermeture progressive.",
-                    "picture" : "https://m2.lmcdn.fr/media/1/5ca64747475ea745b4e511d4/.jpg"
-                },
-                {
-                    "slug_product" : "subway-villeroy-boch",
-                    "name" : "Subway",
-                    "brand" : "Villeroy & Boch",
-                    "price" : 679,
-                    "description" : "La technologie sans bride de la cuvette offre une meilleure hygiène tout en simplifiant le nettoyage. Ensemble Bâti support Grohe Rapid SL Autoportant. Réservoir et mécanisme certifié NF. Réservoir isolé anti-condensation Livré avec plaque de commande double débit (réglage d'usine 3/6L). Chassis en acier epoxy. cuvette suspendue Villeroy et Boch Subway sans bride et abattant frein de chute.",
-                    "picture" : "https://m1.lmcdn.fr/media/1/5d97ab6a475ea72a896477f0/.jpg"
-                },
-                {
-                    "slug_product" : "cavally-goodhome",
-                    "name" : "Cavally",
-                    "brand" : "GoodHome",
-                    "price" : 239,
-                    "description" : "Optimisation et économie assurées avec le pack WC 2 en 1 de la gamme Cavally ! Très pratique pour les petites surfaces, cet ensemble WC à sortie horizontale avec son lavabo intégré vous offrira un gain de place non négligeable. Réutilisant l’eau du lave-mains pour la chasse d’eau, ces toilettes vous font également faire des économies grâce à son mécanisme 3/6L.",
-                    "picture" : "https://www.planetebain.com/2583-thickbox_default/pack-wc-2-en-1-ecologique-avec-lave-mains-sortie-horizontale.jpg"
-                },
-                {
-                    "slug_product" : "trio-siamp",
-                    "name" : "Trio",
-                    "brand" : "Siamp",
-                    "price" : 599,
-                    "description" : "Aménagez facilement un lave-mains dans vos WC Bâti-support gain de place avec commande double volume en face avant Mécanisme de chasse à câble économiseur d'eau 2,5/4 litres Robinet flotteur à économie d'eau par ouverture différée Cuvette suspendue Sento 100% carénée NF Abattant Vence Premium : bactéricide, frein de chute et déclipsable Vasque blanche en céramique Robinet eau froide uniquement à manette (chromé brillant).",
-                    "picture" : "https://m1.lmcdn.fr/media/1/5f09081c475ea72daca3e7ed/.jpeg"
-                },
-                {
-                    "slug_product" : "osmose-geberit",
-                    "name" : "Osmose rimfree",
-                    "brand" : "Geberit",
-                    "price" : 599,
-                    "description" : "Ce WC rimfree permet un nettoyage simplifié.",
-                    "picture" : "https://m1.lmcdn.fr/media/1/5d8b9bf7475ea72a89646f91/.jpeg"
-                },
-                {
-                    "slug_product" : "slug",
-                    "name" : "Prima Multi",
-                    "brand" : "Geberit",
-                    "price" : 664,
-                    "description" : "Pack WC Prima Multi à sortie orientable, prêt à poser, livré dans un emballage unique.",
-                    "picture" : "https://media.adeo.com/marketplace/83326319/d1d10f2e983900d1f1f7213ac435db59.jpeg"
-                }
-            ]
+          "slug_product": "isis-swarovski",
+          "name": "Isis",
+          "brand": "Swarovski",
+          "price": 75000,
+          "description": "Quel plus beau symbole du luxe que des cristaux Swarovski ? Jemal Wright a designé ces toilettes inscrustés de cristaux pour ceux qui éxigent un",
+          "picture": "https://aspiremetro.com/wp-content/uploads/2015/05/9.jpg"
         },
         {
-            "name" : "Classiques",
-            "slug_category" : "toilettes-classiques",
-            "products" :[]
+          "slug_product": "reve-jacob-delafon",
+          "name": "Reve",
+          "brand": "Jacob Delafon",
+          "price": 889,
+          "description": "Caractère unique et affirmé avec ses associations de lignes tendues et d'angles doux. Cuvette carénée jusqu'au mur, fixations cachées pour une visibilité et une accessibilité totale. Déclipsable pour un accès aux surfaces rarement nettoyées, équipé d'un frein de chute pour le confort sonore.",
+          "picture": "https://m1.lmcdn.fr/media/1/5ca647cab7c50577156fa0ba/.jpg"
         },
         {
-            "name" : "Japonais",
-            "slug_category" : "toilettes-japonais",
-            "products" :[
-                {
-                    "slug_product" : "slug",
-                    "name" : "name",
-                    "brand" : "brand",
-                    "price" : 123,
-                    "description" : "description",
-                    "picture" : "url"
-                },
-                {
-                    "slug_product" : "laita-premium-geberit",
-                    "name" : "Laïta Premium",
-                    "brand" : "Geberit",
-                    "price" : 2879,
-                    "description" : "Le WC lavant Geberit AquaClean assure propreté et bien-être en toute facilité, et offre à l'utilisateur, par la simple pression d'une touche, une sensation de fraîcheur délicate pour un sentiment de confort et d'assurance tout au long de la journée. Le Pack WC lavant Geberit AquaClean Laïta Premium est composé d’un WC lavant doté de nombreuses fonctions, d’un bâti-support fiable et durable et d’une plaque de déclenchement double touche (3/6 L) permettant des économies d’eau.",
-                    "picture" : "https://m2.lmcdn.fr/media/1/5c6c5a9d7eb45f5a77f6bb73/.jpeg"
-                },
-                {
-                    "slug_product" : "laita-essentiel-geberit",
-                    "name" : "Laïta Essentiel",
-                    "brand" : "Geberit",
-                    "price" : 1799,
-                    "description" : "Le WC lavant Geberit AquaClean assure propreté et bien-être en toute facilité, et offre à l'utilisateur, par la simple pression d'une touche, une sensation de fraîcheur délicate pour un sentiment de confort et d'assurance tout au long de la journée. Le Pack WC lavant Geberit AquaClean Laïta Essentiel est composé d’un WC lavant doté de nombreuses fonctions, d’un bâti-support fiable et durable et d’une plaque de déclenchement double touche (3/6 L) permettant des économies d’eau.",
-                    "picture" : "https://m1.lmcdn.fr/media/1/5c26a25c475ea73b7fb36708/.jpeg"
-                },
-                {
-                    "slug_product" : "habillage-suspendu",
-                    "name" : "Habillage",
-                    "brand" : "Habillage",
-                    "price" : 1590,
-                    "description" : "Ce wc est la clé d'une hygiène irréprochable au quotidien. Doté d'un système révolutionnaire, il répond parfaitement aux attentes des exigences modernes en matière de confort et de qualité de vie. Grâce à son filtre anti-impuretée, elle met ses adeptes à l'abri de la corvée d'entretien au quotidien. Facile à installer, le produit est fourni avec un bâti avec façade en verre blanc et une cuvette carénée « sans bride » en céramique blanche.",
-                    "picture" : "https://m1.lmcdn.fr/media/1/5c817381b7c505572bd68c3f/.jpg"
-                },
-                {
-                    "slug_product" : "luxe-platinium-2-toptoilet",
-                    "name" : "Luxe Platinium 2 Plus",
-                    "brand" : "TopToilet",
-                    "price" : 1400,
-                    "description" : "Le nouveau WC lavant Monobloc TOPTOILET Platinium2+ est un WC Japonais intégré d’un design exceptionnel. Son écran LCD bleu disposant de toutes les informations utiles et sa télécommande à radiofréquence avec support mural magnétique vous apporteront une grande facilité d’utilisation.",
-                    "picture" : "https://media.adeo.com/marketplace/83326052/e609cc5a523f6bc3134d9bc5f1d15120.png"
-                },
-                {
-                    "slug_product" : "luxe-diamond-toptoilet",
-                    "name" : "Luxe Diamond Plus",
-                    "brand" : "TopToilet",
-                    "price" : 1300,
-                    "description" : "Le nouveau WC lavant Monobloc TOPTOILET Diamond+ est un WC Japonais intégré d’un design exceptionnel. Ses dimensions réduites s’intégreront aisément dans vos toilettes. Son écran LCD bleu disposant de toutes les informations utiles et sa télécommande à radiofréquence avec support mural magnétique vous apporteront une grande facilité d’utilisation.",
-                    "picture" : "https://media.adeo.com/marketplace/83326049/10a2cb3311c67445a246e483f6641fc0.jpeg"
-                },
-                {
-                    "slug_product" : "smart-ove",
-                    "name" : "Smart Toilet",
-                    "brand" : "Ove Decors",
-                    "price" : 1200,
-                    "description" : "Parmis les meilleurs toilettes intelligents du marché. Une excellente combinaison de fonctionnalités et de qualité de finition.",
-                    "picture" : "https://secure.img1-fg.wfcdn.com/im/13141264/resize-h600-w600%5Ecompr-r85/2692/26921740/Smart+Toilet+1.28+GPF+Elongated+One-Piece+Toilet+%2528Seat+Included%2529.jpg"
-                },
-                {
-                    "slug_product" : "dual-flush-toto",
-                    "name" : "Dual Flush Elongated Toilet",
-                    "brand" : "Toto Neorest",
-                    "price" : 7000,
-                    "description" : "Les apports luxueux sont visibles dès qu'on approches ces toilettes... Et ils continuent d'impressioner à l'utilisation. Un design futuriste qui deviendra la pièce centrale de toute salle de bain.",
-                    "picture" : "https://secure.img1-fg.wfcdn.com/im/27665827/resize-h600-w600%5Ecompr-r85/5877/58773716/Neorest%25AE+Dual-Flush+Elongated+One-Piece+Toilet+with+High-Efficiency+Flush+%2528Seat+Included%2529.jpg"
-                },
-                {
-                    "slug_product" : "k-3900-kohler",
-                    "name" : "K-3900 Numi One Piece Elongated Toilet",
-                    "brand" : "Kohler",
-                    "price" : 8775,
-                    "description" : "Un design et une technologie sans pareil pour un confort et une hygiène inégalés.",
-                    "picture" : "https://secure.img1-fg.wfcdn.com/im/76797697/resize-h600-w600%5Ecompr-r85/5536/55363509/Numi%25AE+Comfort+Height%25AE+One-Piece+Elongated+Dual-Flush+Intelligent+Toilet+with+Skirted+Trapway+and+Premium+Remote.jpg"
-                }
-            ]
+          "slug_product": "presquile-jacob-delafon",
+          "name": "Presqu'île",
+          "brand": "Jacob Delafon",
+          "price": 719,
+          "description": "Lignes douces et élégantes, robinet flotteur silencieux. Déclipsable pour un accès aux surfaces rarement nettoyées, équipé d'un frein de chute pour le confort sonore.",
+          "picture": "https://m2.lmcdn.fr/media/1/5ca64795475ea745b4e511de/.jpg"
         },
         {
-            "name" : "Sèches",
-            "slug_category" : "toilettes-seches",
-            "products" :[
-                {
-                    "slug_product" : "chene-seche",
-                    "name" : "Chêne",
-                    "brand" : "Sèche",
-                    "price" : 405,
-                    "description" : "Sans eau sur place, et sans évacuation d'assainissement, ce WC répond à la demande d'un lieu d'aisance ponctuel ou de camping.",
-                    "picture" : "https://m1.lmcdn.fr/media/1/5b576becb7c5050d5aaccf00/.jpg"
-                }
-            ]
+          "slug_product": "700-bleu-provence",
+          "name": "Provence '700",
+          "brand": "Bleu Provence",
+          "price": 666,
+          "description": "WC au sol blanc avec réservoir monobloc.",
+          "picture": "https://media.adeo.com/marketplace/83653933/41c4b4c5495d022e5b1f996333f6df44.jpeg"
+        },
+        {
+          "slug_product": "900-bleu-provence",
+          "name": "Provence '900",
+          "brand": "Bleu Provence",
+          "price": 600,
+          "description": "WC au sol blanc (sortie verticale) avec réservoir haut avec couvercle.",
+          "picture": "https://media.adeo.com/marketplace/83653867/6e460427800f8f0f77911e42b8c0cce6.jpeg"
+        },
+        {
+          "slug_product": "escale-jacob-delafon",
+          "name": "Escale",
+          "brand": "Jacob Delafon",
+          "price": 839,
+          "description": "Châssis acier résistant à une charge de 400 Kg, traité anti-corrosion. Cuvette aux formes équilibrées inspirées par l'art asiatique. Abattant équipé d'un système de frein de chute pour une fermeture progressive.",
+          "picture": "https://m2.lmcdn.fr/media/1/5ca64747475ea745b4e511d4/.jpg"
+        },
+        {
+          "slug_product": "subway-villeroy-boch",
+          "name": "Subway",
+          "brand": "Villeroy & Boch",
+          "price": 679,
+          "description": "La technologie sans bride de la cuvette offre une meilleure hygiène tout en simplifiant le nettoyage. Ensemble Bâti support Grohe Rapid SL Autoportant. Réservoir et mécanisme certifié NF. Réservoir isolé anti-condensation Livré avec plaque de commande double débit (réglage d'usine 3/6L). Chassis en acier epoxy. cuvette suspendue Villeroy et Boch Subway sans bride et abattant frein de chute.",
+          "picture": "https://m1.lmcdn.fr/media/1/5d97ab6a475ea72a896477f0/.jpg"
+        },
+        {
+          "slug_product": "cavally-goodhome",
+          "name": "Cavally",
+          "brand": "GoodHome",
+          "price": 239,
+          "description": "Optimisation et économie assurées avec le pack WC 2 en 1 de la gamme Cavally ! Très pratique pour les petites surfaces, cet ensemble WC à sortie horizontale avec son lavabo intégré vous offrira un gain de place non négligeable. Réutilisant l’eau du lave-mains pour la chasse d’eau, ces toilettes vous font également faire des économies grâce à son mécanisme 3/6L.",
+          "picture": "https://www.planetebain.com/2583-thickbox_default/pack-wc-2-en-1-ecologique-avec-lave-mains-sortie-horizontale.jpg"
+        },
+        {
+          "slug_product": "trio-siamp",
+          "name": "Trio",
+          "brand": "Siamp",
+          "price": 599,
+          "description": "Aménagez facilement un lave-mains dans vos WC Bâti-support gain de place avec commande double volume en face avant Mécanisme de chasse à câble économiseur d'eau 2,5/4 litres Robinet flotteur à économie d'eau par ouverture différée Cuvette suspendue Sento 100% carénée NF Abattant Vence Premium : bactéricide, frein de chute et déclipsable Vasque blanche en céramique Robinet eau froide uniquement à manette (chromé brillant).",
+          "picture": "https://m1.lmcdn.fr/media/1/5f09081c475ea72daca3e7ed/.jpeg"
+        },
+        {
+          "slug_product": "osmose-geberit",
+          "name": "Osmose rimfree",
+          "brand": "Geberit",
+          "price": 599,
+          "description": "Ce WC rimfree permet un nettoyage simplifié.",
+          "picture": "https://m1.lmcdn.fr/media/1/5d8b9bf7475ea72a89646f91/.jpeg"
+        },
+        {
+          "slug_product": "slug",
+          "name": "Prima Multi",
+          "brand": "Geberit",
+          "price": 664,
+          "description": "Pack WC Prima Multi à sortie orientable, prêt à poser, livré dans un emballage unique.",
+          "picture": "https://media.adeo.com/marketplace/83326319/d1d10f2e983900d1f1f7213ac435db59.jpeg"
         }
-    ]
+      ]
+    },
+    {
+      "name": "Classiques",
+      "slug_category": "toilettes-classiques",
+      "products": [
+        {
+          "slug_product": "bourguignon-jacob-delafon",
+          "name": "Bourguignon 2",
+          "brand": "Jacob Delafon",
+          "price": 129,
+          "description": "Le siège à la turque Bourguignon 2 de chez Jacob Delafon présente toutes les caractéristiques des WC collectifs : économiques, hygiéniques. Faciles à entretenir, du fait qu ils ne possèdent pas d assise, ils consomment moins d eau qu une cuvette wc standard. A encastrer au sol, ces toilettes de conception anciennes restent l allié des collectivités du fait de la limitation de la propagation des microbes.",
+          "picture": "https://cdn.manomano.com/siege-a-la-turque-bourguignon-2-jacob-delafon-P-31359-100752_1.jpg"
+        },
+        {
+          "slug_product": "snpt01c-mediclinics",
+          "name": "SNPT01C",
+          "brand": "Mediclinics",
+          "price": 80,
+          "description": "Des toilettes classiques en acier inoxydable avec une finition brillante.",
+          "picture": "https://www.mediclinics.com/1380-medium_default/Stainless-steel-squatting-pan-SNPT01C.jpg"
+        },
+        {
+          "slug_product": "squatting-pan-rak-ceramics",
+          "name": "Squatting pan",
+          "brand": "Rak Ceramics",
+          "price": 100,
+          "description": "Finition céramique blanche alpine pour ces toilettes ",
+          "picture": "https://d2zpvmybpipqvy.cloudfront.net/media/products/sanitary_ware/bathwares/water-closet/images/still-life/generated_861f07c4117710356d7851390ea00dc068f8df1e.jpg.612x480_q85.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Japonais",
+      "slug_category": "toilettes-japonais",
+      "products": [
+        {
+          "slug_product": "laita-premium-geberit",
+          "name": "Laïta Premium",
+          "brand": "Geberit",
+          "price": 2879,
+          "description": "Le WC lavant Geberit AquaClean assure propreté et bien-être en toute facilité, et offre à l'utilisateur, par la simple pression d'une touche, une sensation de fraîcheur délicate pour un sentiment de confort et d'assurance tout au long de la journée. Le Pack WC lavant Geberit AquaClean Laïta Premium est composé d’un WC lavant doté de nombreuses fonctions, d’un bâti-support fiable et durable et d’une plaque de déclenchement double touche (3/6 L) permettant des économies d’eau.",
+          "picture": "https://m2.lmcdn.fr/media/1/5c6c5a9d7eb45f5a77f6bb73/.jpeg"
+        },
+        {
+          "slug_product": "laita-essentiel-geberit",
+          "name": "Laïta Essentiel",
+          "brand": "Geberit",
+          "price": 1799,
+          "description": "Le WC lavant Geberit AquaClean assure propreté et bien-être en toute facilité, et offre à l'utilisateur, par la simple pression d'une touche, une sensation de fraîcheur délicate pour un sentiment de confort et d'assurance tout au long de la journée. Le Pack WC lavant Geberit AquaClean Laïta Essentiel est composé d’un WC lavant doté de nombreuses fonctions, d’un bâti-support fiable et durable et d’une plaque de déclenchement double touche (3/6 L) permettant des économies d’eau.",
+          "picture": "https://m1.lmcdn.fr/media/1/5c26a25c475ea73b7fb36708/.jpeg"
+        },
+        {
+          "slug_product": "habillage-suspendu",
+          "name": "Habillage",
+          "brand": "Habillage",
+          "price": 1590,
+          "description": "Ce wc est la clé d'une hygiène irréprochable au quotidien. Doté d'un système révolutionnaire, il répond parfaitement aux attentes des exigences modernes en matière de confort et de qualité de vie. Grâce à son filtre anti-impuretée, elle met ses adeptes à l'abri de la corvée d'entretien au quotidien. Facile à installer, le produit est fourni avec un bâti avec façade en verre blanc et une cuvette carénée « sans bride » en céramique blanche.",
+          "picture": "https://m1.lmcdn.fr/media/1/5c817381b7c505572bd68c3f/.jpg"
+        },
+        {
+          "slug_product": "luxe-platinium-2-toptoilet",
+          "name": "Luxe Platinium 2 Plus",
+          "brand": "TopToilet",
+          "price": 1400,
+          "description": "Le nouveau WC lavant Monobloc TOPTOILET Platinium2+ est un WC Japonais intégré d’un design exceptionnel. Son écran LCD bleu disposant de toutes les informations utiles et sa télécommande à radiofréquence avec support mural magnétique vous apporteront une grande facilité d’utilisation.",
+          "picture": "https://media.adeo.com/marketplace/83326052/e609cc5a523f6bc3134d9bc5f1d15120.png"
+        },
+        {
+          "slug_product": "luxe-diamond-toptoilet",
+          "name": "Luxe Diamond Plus",
+          "brand": "TopToilet",
+          "price": 1300,
+          "description": "Le nouveau WC lavant Monobloc TOPTOILET Diamond+ est un WC Japonais intégré d’un design exceptionnel. Ses dimensions réduites s’intégreront aisément dans vos toilettes. Son écran LCD bleu disposant de toutes les informations utiles et sa télécommande à radiofréquence avec support mural magnétique vous apporteront une grande facilité d’utilisation.",
+          "picture": "https://media.adeo.com/marketplace/83326049/10a2cb3311c67445a246e483f6641fc0.jpeg"
+        },
+        {
+          "slug_product": "smart-ove",
+          "name": "Smart Toilet",
+          "brand": "Ove Decors",
+          "price": 1200,
+          "description": "Parmis les meilleurs toilettes intelligents du marché. Une excellente combinaison de fonctionnalités et de qualité de finition.",
+          "picture": "https://secure.img1-fg.wfcdn.com/im/13141264/resize-h600-w600%5Ecompr-r85/2692/26921740/Smart+Toilet+1.28+GPF+Elongated+One-Piece+Toilet+%2528Seat+Included%2529.jpg"
+        },
+        {
+          "slug_product": "dual-flush-toto",
+          "name": "Dual Flush Elongated Toilet",
+          "brand": "Toto Neorest",
+          "price": 7000,
+          "description": "Les apports luxueux sont visibles dès qu'on approches ces toilettes... Et ils continuent d'impressioner à l'utilisation. Un design futuriste qui deviendra la pièce centrale de toute salle de bain.",
+          "picture": "https://secure.img1-fg.wfcdn.com/im/27665827/resize-h600-w600%5Ecompr-r85/5877/58773716/Neorest%25AE+Dual-Flush+Elongated+One-Piece+Toilet+with+High-Efficiency+Flush+%2528Seat+Included%2529.jpg"
+        },
+        {
+          "slug_product": "k-3900-kohler",
+          "name": "K-3900 Numi One Piece Elongated Toilet",
+          "brand": "Kohler",
+          "price": 8775,
+          "description": "Un design et une technologie sans pareil pour un confort et une hygiène inégalés.",
+          "picture": "https://secure.img1-fg.wfcdn.com/im/76797697/resize-h600-w600%5Ecompr-r85/5536/55363509/Numi%25AE+Comfort+Height%25AE+One-Piece+Elongated+Dual-Flush+Intelligent+Toilet+with+Skirted+Trapway+and+Premium+Remote.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Sèches",
+      "slug_category": "toilettes-seches",
+      "products": [
+        {
+          "slug_product": "chene-seche",
+          "name": "Chêne",
+          "brand": "Sèche",
+          "price": 405,
+          "description": "Sans eau sur place, et sans évacuation d'assainissement, ce WC répond à la demande d'un lieu d'aisance ponctuel ou de camping.",
+          "picture": "https://m1.lmcdn.fr/media/1/5b576becb7c5050d5aaccf00/.jpg"
+        },
+        {
+          "slug_product": "cagarol-lecopot",
+          "name": "Le Cagaròl Douglas",
+          "brand": "Lécopot",
+          "price": 729,
+          "description": " Une toilette sèche aux formes classiques et rassurantes d'un grand confort avec sa réserve à copeaux intégrée.",
+          "picture": "https://www.lecopot.com/1364-thickbox_default/toilette-seche-le-cagarol-douglas.jpg"
+        },
+        {
+          "slug_product": "belladonna-lecopot",
+          "name": "La Belladonna",
+          "brand": "Lécopot",
+          "price": 650,
+          "description": "Le modèle très chic de Lécopot. Avec ses formes galbées et son seau inox apparent, la Belladonna est l'argument esthétique en faveur des toilettes sèches partout dans la maison. Une toilette sèche décomplexée.",
+          "picture": "https://www.lecopot.com/1038-thickbox_default/toilette-seche-la-belladonna.jpg"
+        },
+        {
+          "slug_product": "nouveau-papillon-douglas-lecopot",
+          "name": "Le Nouveau Papillon Douglas",
+          "brand": "Lécopot",
+          "price": 569,
+          "description": "Une toilette sèche pour toute la famille avec sa grande réserve à copeaux facilement accessible aux enfants.",
+          "picture": "https://www.lecopot.com/1347-thickbox_default/toilette-seche-le-papillon-douglas.jpg"
+        }
+      ]
+    }
+  ]
 }
