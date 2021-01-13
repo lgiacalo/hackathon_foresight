@@ -1,11 +1,43 @@
 import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
+import data from "../assets/toilets.json";
 
 const Product = () => {
+  const { slug_category, slug_product } = useParams();
   const [product, setProduct] = useState(null);
+  const [category, setCategory] = useState(null);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    const catego = data.categories.find(
+      (e) => e.slug_category === slug_category
+    );
+    if (catego) {
+      setCategory(catego);
+      const prod = catego.products.find((e) => e.slug_product === slug_product);
+      if (prod) setProduct(prod);
+    }
+  }, [slug_category, slug_product]);
 
-  return <div>Product WC</div>;
+  if (!product) return <p>Produit non trouvé</p>;
+
+  return (
+    <article>
+      <Helmet>
+        <title>{product.name}</title>
+        {/* <link rel="canonical" href="" /> */}
+        <meta name="description" content={product.description} />
+      </Helmet>
+      <nav>
+        <Link to="/">Accueil</Link> |
+        <Link to={`/${slug_category}`}>Toilettes {category.name}</Link>
+      </nav>
+
+      <h2>Toilette: {product.name}</h2>
+      <p>{product.description}</p>
+    </article>
+  );
 };
 
 export default Product;

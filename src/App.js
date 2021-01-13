@@ -21,13 +21,14 @@ function App() {
           <Categories />
         </Route>
 
+        <Route path="/:slug_category/:slug_product">
+          <Product />
+        </Route>
+
         <Route path="/:slug_category">
           <CategoryDetails />
         </Route>
 
-        <Route path="/:slug_category/:slug_product">
-          <Product />
-        </Route>
       </Switch>
 
       <Footer />
