@@ -1,20 +1,22 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logoBrand from "../assets/cabinet-logo.svg";
 
-function Header () {
-
+function Header() {
   const [open, setOpen] = useState(false);
 
-  const handleClick = () =>{
+  const handleClick = () => {
     open ? setOpen(false) : setOpen(true);
-  }
+  };
 
   return (
     <header>
       <h1>
         <Link to="/" title="Cabi.net">
-          <img className="logo" src={logoBrand} alt="cabi.net" />
+          <img
+            className="logo"
+            src="https://competent-shirley-af37ce.netlify.app/img/cabinet-logo.svg"
+            alt="logo cabi.net"
+          />
         </Link>
       </h1>
       <div className="navbar">
@@ -55,6 +57,6 @@ function Header () {
       </div>
     </header>
   );
-};
+}
 
 export default Header;

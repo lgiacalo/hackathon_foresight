@@ -14,7 +14,7 @@
     },
     {
       "src": "img/cabinet-logo.svg",
-      "sizes": "any"
+      "sizes": "300x65"
     }
   ],
   "start_url": ".",
