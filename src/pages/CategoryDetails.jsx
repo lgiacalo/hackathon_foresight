@@ -22,7 +22,10 @@ const CategoryDetails = () => {
     <article>
       <Helmet>
         <title>{category.name}</title>
-        {/* <link rel="canonical" href="" /> */}
+        <link
+          rel="canonical"
+          href={`https://cabinett.netlify.app/${slug_category}/`}
+        />
         <meta name="description" content={category.description} />
       </Helmet>
       <nav>

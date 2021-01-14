@@ -8,7 +8,10 @@ const NotFound = () => {
     <>
       <Helmet>
         <title>Cabinett - 404 Not Found</title>
-        {/* <link rel="canonical" href="" /> */}
+        <link
+          rel="canonical"
+          href="https://cabinett.netlify.app/not-found-404"
+        />
         <meta name="description" content="Cabinett - page not found " />
       </Helmet>
       <nav>

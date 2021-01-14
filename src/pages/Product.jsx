@@ -28,14 +28,16 @@ const Product = () => {
     <article className="pageContainer Product">
       <Helmet>
         <title>{product.name}</title>
-        {/* <link rel="canonical" href="" /> */}
+        <link
+          rel="canonical"
+          href={`https://cabinett.netlify.app/${slug_category}/${slug_product}/`}
+        />
         <meta name="description" content={product.description} />
       </Helmet>
       <nav>
         <Link to="/">Accueil</Link> |
         <Link to={`/${slug_category}`}>Toilettes {category.name}</Link> | Modèle{" "}
         {product.name}
-
       </nav>
 
       <article>
