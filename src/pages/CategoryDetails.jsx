@@ -41,7 +41,7 @@ const CategoryDetails = () => {
       </nav>
 
       <h2>Catégorie : toilettes {category.name}</h2>
-      <p>{category.description}</p>
+      <p>{category.content}</p>
       <section className="multipleProductsContainer">
         {category.products.map((p, i) => (
           <ProductCard
