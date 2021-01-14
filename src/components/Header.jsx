@@ -20,11 +20,13 @@ function Header() {
         </Link>
       </div>
       <div className="navbar">
+        <label>
         <input
           className="search"
           type="text"
           placeholder="🔎 Je recherche..."
         />
+        </label>
         <nav className="menu">
           {/* <input id="menu-toggle" className="menu-toggle" type="checkbox" onClick={handleClick} /> */}
           <button className="menu-toggle" onClick={handleClick}>
