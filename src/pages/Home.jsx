@@ -7,10 +7,13 @@ const Home = () => {
   return (
     <main className="pageContainer Home">
       <Helmet>
-        <meta property="og:url" content="https://cabinett.netlify.app/" />
-        <meta property="twitter:url" content="https://cabinett.netlify.app/" />
+        <meta property="og:url" content="https://cabinett-test1.netlify.app/" />
+        <meta
+          property="twitter:url"
+          content="https://cabinett-test1.netlify.app/"
+        />
         <title>Cabinett</title>
-        <link rel="canonical" href="https://cabinett.netlify.app/" />
+        <link rel="canonical" href="https://cabinett-test1.netlify.app/" />
         <meta
           name="description"
           content="Le spécialiste des toilettes, en tout genre, de tous les pays et pour tous les prix !"
