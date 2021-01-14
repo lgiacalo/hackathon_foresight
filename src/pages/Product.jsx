@@ -57,7 +57,6 @@ const Product = () => {
             </Link>
           </p>
         </div>
-
         <img src={product.picture} alt={product.name} />
       </article>
     </article>

@@ -15,7 +15,7 @@ const NotFound = () => {
         <Link to="/">Accueil</Link> |
       </nav>
       <h1>Not Found</h1>
-      <img src={shit404} alt="not found page" width="600" heigh="400" />
+      <img src={shit404} alt="not found page" width="600" height="400" />
     </>
   );
 };
