@@ -9,7 +9,10 @@ const Home = () => {
       <Helmet>
         <title>Cabinett</title>
         <link rel="canonical" href="https://cabinett.netlify.app/" />
-        <meta name="description" content="Description Cabinett " />
+        <meta
+          name="description"
+          content="Le spécialiste des toilettes, en tout genre, de tous les pays et pour tous les prix !"
+        />
       </Helmet>
       <h2>Home Page</h2>
       <Link to="/categories/">Liste Catégories</Link> |
