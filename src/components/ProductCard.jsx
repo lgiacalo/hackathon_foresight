@@ -10,12 +10,15 @@ const ProductCard = ({
   price,
 }) => {
   return (
-    <article>
-      <h3>
-        <Link to={`/${slug_category}/${slug_product}/`}>{name}</Link>
-      </h3>
-      <img src={picture} alt="name" />
-      <p>{price} €</p>
+    <article className="productCard">
+      <Link to={`/${slug_category}/${slug_product}/`}>
+        <div>
+          <h3>WC {name}</h3>
+          <p>{price}&nbsp;€</p>
+        </div>
+        <img src={picture} alt="name" />
+        <span className="best-product-link">Plus d'info</span>
+      </Link>
     </article>
   );
 };
