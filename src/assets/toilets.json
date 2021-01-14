@@ -94,7 +94,8 @@
           "description": "Pack WC Prima Multi à sortie orientable, prêt à poser, livré dans un emballage unique.",
           "picture": "/products/toilettes-prima-multi.png"
         }
-      ]
+      ],
+      "information": ""
     },
     {
       "name": "Classiques",
@@ -126,7 +127,8 @@
           "description": "Finition céramique blanche alpine pour ces toilettes ",
           "picture": "/products/toilettes-squatting-pan-rak-ceramics.png"
         }
-      ]
+      ],
+      "information": ""
     },
     {
       "name": "Japonaises",
@@ -198,7 +200,8 @@
           "description": "Un design et une technologie sans pareil pour un confort et une hygiène inégalés.",
           "picture": "/products/toilettes-k-3900-kohler.png"
         }
-      ]
+      ],
+      "information": "Ce type de toilettes à la pointe de la technologie nous vient du Japon. Avec ces WC lavants et high-tech, oubliez les <strong>pénuries de papier toilette</strong>, vous n'en aurez plus besoin et, en prime, vous garderez une hygiène irréprochable !"
     },
     {
       "name": "Sèches",
@@ -238,7 +241,8 @@
           "description": "Une toilette sèche pour toute la famille avec sa grande réserve à copeaux facilement accessible aux enfants.",
           "picture": "/products/toilettes-nouveau-papillon-douglas-lecopot.png"
         }
-      ]
+      ],
+      "information": ""
     }
   ]
 }

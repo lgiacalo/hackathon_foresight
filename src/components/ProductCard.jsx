@@ -14,7 +14,7 @@ const ProductCard = ({
       <h3>
         <Link to={`/${slug_category}/${slug_product}/`}>{name}</Link>
       </h3>
-      <img src={picture} alt="name"/>
+      <img src={picture} alt="name" />
       <p>{price} €</p>
     </article>
   );

@@ -107,16 +107,16 @@ const Home = () => {
         </div>
       </article>
       <article className="chapo">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Saviez vous combien de temps nous passons aux WC, au cours de notre vie
+        ? Cela représente en moyenne 3 ans de notre vie&nbsp;! Chez{" "}
+        <strong>Cabi.net</strong>, nous avons décidé de vous faciliter la tâche
+        pour trouver le WC qui vous convienne. Envie de goûter au confort des{" "}
+        <Link to="/toilettes-occidentales/">
+          toilettes de luxe à la japonaise
+        </Link>{" "}
+        Avec ces WC lavants, oubliez les pénuries de papier toilette, vous n'en
+        aurez plus besoin et, en bonus, vous garderez une hygiène irréprochable
+        ! &nbsp;?
       </article>
     </main>
   );
