@@ -4,17 +4,18 @@ import { Link } from "react-router-dom";
 const ProductCard = ({
   name,
   description,
-  image,
+  picture,
   slug_product,
   slug_category,
+  price,
 }) => {
   return (
     <article>
-      <h2>
+      <h3>
         <Link to={`/${slug_category}/${slug_product}/`}>{name}</Link>
-      </h2>
-      {/* <p>{description}</p> */}
-      <p>{image}</p>
+      </h3>
+      <img src={picture} alt="name"/>
+      <p>{price} €</p>
     </article>
   );
 };

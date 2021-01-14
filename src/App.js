@@ -9,7 +9,7 @@ import Product from "./pages/Product";
 
 function App() {
   return (
-    <div>
+    <div className="globalContainer">
       <Header />
 
       <Switch>
