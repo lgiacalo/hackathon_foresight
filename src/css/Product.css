@@ -1,0 +1,67 @@
+.Product {
+  width: 90%;
+  margin: 1% 5% 20% 5%;
+}
+.Product article {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 1rem;
+}
+.Product article div {
+  width: 100%;
+  margin: 2rem 0;
+}
+.Product article h2 {
+  font-size: 2rem;
+}
+.Product article img {
+  width: 100%;
+  border: solid 6px #000;
+}
+.Product .productDescription {
+  margin: 1rem 0;
+}
+.Product .priceBasket {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Product .productPrice {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.Product .productPrice span {
+  font-size: 0.6em;
+  bottom: 1rem;
+}
+.Product .btnBasket {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.Product .light {
+  font-weight: normal;
+}
+
+@media only screen and (min-width: 800px) {
+  .Product article {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 4rem 1rem;
+  }
+  .Product article div {
+    width: 65%;
+    margin: 0;
+  }
+  .Product article img {
+    width: 28%;
+    margin: 0 2%;
+  }
+}

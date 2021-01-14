@@ -14,7 +14,7 @@ function Header() {
         <Link to="/" title="Cabi.net">
           <img
             className="logo"
-            src="https://competent-shirley-af37ce.netlify.app/img/cabinet-logo.svg"
+            src="/img/cabinet-logo.svg"
             alt="logo cabi.net"
           />
         </Link>
@@ -28,8 +28,8 @@ function Header() {
         <nav className="menu">
           {/* <input id="menu-toggle" className="menu-toggle" type="checkbox" onClick={handleClick} /> */}
           <button className="menu-toggle" onClick={handleClick}>
-            <span className={open ? "hidden" : "shown"}>☰</span>
-            <span className={open ? "shown" : "hidden"}>❌</span>
+            <span className={open ? "hidden" : ""}>☰</span>
+            <span className={open ? "" : "hidden"}>❌</span>
           </button>
           <ul className={open ? "menu-list" : "hidden"}>
             <li>

@@ -7,15 +7,26 @@ const NotFound = () => {
   return (
     <>
       <Helmet>
+        <meta
+          property="og:url"
+          content="https://cabinett.netlify.app/not-found-404"
+        />
+        <meta
+          property="twitter:url"
+          content="https://cabinett.netlify.app/not-found-404"
+        />
         <title>Cabinett - 404 Not Found</title>
-        {/* <link rel="canonical" href="" /> */}
+        <link
+          rel="canonical"
+          href="https://cabinett.netlify.app/not-found-404"
+        />
         <meta name="description" content="Cabinett - page not found " />
       </Helmet>
       <nav>
         <Link to="/">Accueil</Link> |
       </nav>
       <h1>Not Found</h1>
-      <img src={shit404} alt="not found page" width="600" heigh="400" />
+      <img src={shit404} alt="not found page" width="600" height="400" />
     </>
   );
 };

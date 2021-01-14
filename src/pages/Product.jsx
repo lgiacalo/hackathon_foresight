@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import NotFound from "./NotFound";
 import data from "../assets/toilets.json";
+import "../css/Product.css";
 
 const Product = () => {
   const { slug_category, slug_product } = useParams();
@@ -24,19 +25,51 @@ const Product = () => {
   if (!product) return <NotFound />;
 
   return (
-    <article>
+    <article className="pageContainer Product">
       <Helmet>
+        <meta
+          property="og:url"
+          content={`https://cabinett.netlify.app/${slug_category}/${slug_product}/`}
+        />
+        <meta
+          property="twitter:url"
+          content={`https://cabinett.netlify.app/${slug_category}/${slug_product}/`}
+        />
         <title>{product.name}</title>
-        {/* <link rel="canonical" href="" /> */}
+        <link
+          rel="canonical"
+          href={`https://cabinett.netlify.app/${slug_category}/${slug_product}/`}
+        />
         <meta name="description" content={product.description} />
       </Helmet>
       <nav>
         <Link to="/">Accueil</Link> |
-        <Link to={`/${slug_category}/`}>Toilettes {category.name}</Link>
+        <Link to={`/${slug_category}`}>Toilettes {category.name}</Link> | Modèle{" "}
+        {product.name}
       </nav>
 
-      <h2>Toilette: {product.name}</h2>
-      <p>{product.description}</p>
+      <article>
+        <div>
+          <h2>Modèle {product.name}</h2>
+          <p className="productDescription">{product.description}</p>
+          <p className="priceBasket">
+            <span className="productPrice">
+              {product.price}{" "}
+              <span>
+                € <span className="light">TTC</span>
+              </span>
+            </span>
+            <Link
+              to="/"
+              className="btnBasket"
+              title="Mettre l'article au panier"
+            >
+              J'achète
+            </Link>
+          </p>
+        </div>
+        <img src={product.picture} alt={product.name} />
+      </article>
     </article>
   );
 };
