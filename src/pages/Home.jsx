@@ -107,16 +107,13 @@ const Home = () => {
         </div>
       </article>
       <article className="chapo">
-        Saviez vous combien de temps nous passons aux WC, au cours de notre vie
-        ? Cela représente en moyenne 3 ans de notre vie&nbsp;! Chez{" "}
+        Saviez vous combien de temps nous passons aux WC, en moyenne ? Cela
+        représente en moyenne 3 ans de notre vie&nbsp;! Chez{" "}
         <strong>Cabi.net</strong>, nous avons décidé de vous faciliter la tâche
         pour trouver le WC qui vous convienne. Envie de goûter au confort des{" "}
         <Link to="/toilettes-occidentales/">
           toilettes de luxe à la japonaise
         </Link>{" "}
-        Avec ces WC lavants, oubliez les pénuries de papier toilette, vous n'en
-        aurez plus besoin et, en bonus, vous garderez une hygiène irréprochable
-        ! &nbsp;?
       </article>
     </main>
   );
