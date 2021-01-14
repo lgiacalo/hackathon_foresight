@@ -20,7 +20,7 @@ function Header() {
         </Link>
       </div>
       <div className="navbar">
-        <label>
+        <label>Search a product
         <input
           className="search"
           type="text"
