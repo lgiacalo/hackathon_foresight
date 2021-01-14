@@ -62,7 +62,7 @@ const Home = () => {
             <Link to="/toilettes-japonaises/k-3900-kohler/" title="Plus d'info">
               <img
                 className="productImg"
-                src="/products/toilettes-k-3900-kohler.png"
+                src="/products/toilettes-k-3900-kohler.webp"
                 alt="Modèle K-3900 Numi One Piece Elongated Toilet"
               />
               <h3>Modèle K-3900 Numi</h3>
@@ -76,7 +76,7 @@ const Home = () => {
             >
               <img
                 className="productImg"
-                src="/products/toilettes-luxe-diamond-toptoilet.png"
+                src="/products/toilettes-luxe-diamond-toptoilet.webp"
                 alt="Modèle Luxe Diamond Plus"
               />
               <h3>Modèle Luxe Diamond Plus</h3>
@@ -99,7 +99,7 @@ const Home = () => {
             >
               <img
                 className="productImg"
-                src="/products/toilettes-cavally-goodhome.jpg"
+                src="/products/toilettes-cavally-goodhome.webp"
                 alt="Modèle Cavally"
               />
               <h3>Modèle Cavally</h3>
@@ -113,7 +113,7 @@ const Home = () => {
             >
               <img
                 className="productImg"
-                src="/products/toilettes-isis-swarovski.jpg"
+                src="/products/toilettes-isis-swarovski.webp"
                 alt="Modèle Isis"
               />
               <h3>Modèle Isis</h3>
