@@ -3,6 +3,8 @@
   display: flex;
   flex-flow: column nowrap;
   padding-bottom: 3rem;
+  width: 90%;
+  margin: 0 5%;
 }
 .categoryContainer nav {
   width: 100%;
@@ -31,8 +33,7 @@
   align-items: flex-start;
 }
 
-.multipleCategoriesContainer article,
-.multipleProductsContainer article {
+.multipleCategoriesContainer article {
   box-sizing: border-box;
   width: 45%;
   height: 20rem;
@@ -55,15 +56,64 @@
 }
 .multipleCategoriesContainer article img,
 .multipleProductsContainer article img {
-  max-width: 90%;
+  max-width: 100%;
   max-height: 70%;
   margin: 0.5rem 0;
   border: 0.5rem solid #000;
 }
+
+.categoryContainer .categoryInformation {
+  width: 100%;
+  text-align: justify;
+  margin: 10% 0 10% 0;
+  color: rgb(109, 109, 109);
+  padding: 0;
+}
+.best-product-link {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 0.3rem;
+  margin: 0 2%;
+}
+.multipleProductsContainer .productCard {
+  width: 43%;
+  margin-bottom: 2rem;
+}
+.multipleProductsContainer .productCard div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.multipleProductsContainer .productCard div h3 {
+  font-size: 1rem;
+}
+.multipleProductsContainer .productCard div p {
+  font-weight: bold;
+  margin: 0;
+}
+
 @media only screen and (min-width: 800px) {
+  .categoryContainer h2 {
+    font-size: 1.2rem;
+  }
   .multipleCategoriesContainer article,
   .multipleProductsContainer article {
     margin: 2rem 0;
     width: 22%;
+  }
+  .categoryContainer .categoryInformation {
+    margin: 2% 0 5% 0;
+  }
+  .multipleProductsContainer .productCard {
+    width: 14%;
+    margin: 2rem 2%;
   }
 }

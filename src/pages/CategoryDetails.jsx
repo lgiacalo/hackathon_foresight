@@ -37,10 +37,10 @@ const CategoryDetails = () => {
         <meta name="description" content={category.description} />
       </Helmet>
       <nav>
-        <Link to="/">Accueil</Link> |
+        <Link to="/">Accueil</Link> | {category.name}
       </nav>
 
-      <h2>Categorie : {category.name}</h2>
+      <h2>Catégorie : toilettes {category.name}</h2>
       <p>{category.description}</p>
       <section className="multipleProductsContainer">
         {category.products.map((p, i) => (
@@ -51,6 +51,7 @@ const CategoryDetails = () => {
           />
         ))}
       </section>
+      <p className="categoryInformation">{category.information}</p>
     </div>
   );
 };
