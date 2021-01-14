@@ -35,7 +35,7 @@ const Product = () => {
           name="twitter:url"
           content={`https://cabinett-test1.netlify.app/${slug_category}/${slug_product}/`}
         />
-        <title>Cabi.nett - {product.name}</title>
+        <title>Cabi.nett | {product.name}</title>
         <link
           rel="canonical"
           href={`https://cabinett-test1.netlify.app/${slug_category}/${slug_product}/`}

@@ -28,7 +28,7 @@ const GuideDetails = () => {
           name="twitter:url"
           content={`https://cabinett.netlify.app/guides/${slug_guide}/`}
         />
-        <title>Cabi.nett - Guide - {guide.name}</title>
+        <title>Cabi.nett | {guide.name}</title>
         <link
           rel="canonical"
           href={`https://cabinett.netlify.app/guides/${slug_guide}/`}
