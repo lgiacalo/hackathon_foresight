@@ -40,7 +40,7 @@ const GuideDetails = () => {
         <Link to="/guides/">Liste des guides</Link>
       </nav>
 
-      <h2>Guide : {guide.name}</h2>
+      <h1>Guide : {guide.name}</h1>
       <p>{guide.sumup}</p>
       <p>{guide.texte}</p>
     </div>

@@ -51,7 +51,7 @@ const Product = () => {
 
       <article>
         <div>
-          <h2>Modèle {product.name}</h2>
+          <h1>Modèle {product.name}</h1>
           <p className="productDescription">{product.description}</p>
           <p className="priceBasket">
             <span className="productPrice">
