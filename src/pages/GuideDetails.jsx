@@ -28,7 +28,9 @@ const GuideDetails = () => {
           name="twitter:url"
           content={`https://cabinett.netlify.app/guides/${slug_guide}/`}
         />
-        <title>Cabi.nett | {guide.name}</title>
+        <title>
+          Cabinett - Votre expert en toilettes - Guide - {guide.name}
+        </title>
         <link
           rel="canonical"
           href={`https://cabinett.netlify.app/guides/${slug_guide}/`}
