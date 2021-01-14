@@ -15,7 +15,7 @@ const NotFound = () => {
           name="twitter:url"
           content="https://cabinett-test1.netlify.app/not-found-404"
         />
-        <title>Cabinett - 404 Not Found</title>
+        <title>Cabinett - Votre expert en toilettes - 404 Not Found</title>
         <link
           rel="canonical"
           href="https://cabinett-test1.netlify.app/not-found-404"

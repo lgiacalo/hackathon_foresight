@@ -29,7 +29,7 @@ const CategoryDetails = () => {
           name="twitter:url"
           content={`https://cabinett-test1.netlify.app/${slug_category}/`}
         />
-        <title>Cabi.nett - {category.name}</title>
+        <title>Cabinett - Votre expert en toilettes - {category.name}</title>
         <link
           rel="canonical"
           href={`https://cabinett-test1.netlify.app/${slug_category}/`}
