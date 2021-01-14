@@ -28,6 +28,8 @@ header {
 
 header h1 {
   max-width: 450px;
+  color: transparent;
+  font-size: 0.1rem;
 }
 header h1,
 header h1 a,
