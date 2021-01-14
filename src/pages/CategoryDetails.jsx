@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import data from "../assets/toilets.json";
 import ProductCard from "../components/ProductCard";
+import NotFound from "./NotFound";
 
 const CategoryDetails = () => {
   const [category, setCategory] = useState(null);
@@ -15,7 +16,7 @@ const CategoryDetails = () => {
     });
   }, [slug_category]);
 
-  if (!category) return <p>Categorie non trouvée</p>;
+  if (!category) return <NotFound />;
 
   return (
     <article>
