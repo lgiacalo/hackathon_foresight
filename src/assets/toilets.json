@@ -5,7 +5,7 @@
       "slug_category": "toilettes-occidentales",
       "description": "Les toilettes occidentales sont celles que nous avons le plus l'habitude de voir dans nos maisons.",
       "content": "Les toilettes occidentales sont celles que nous avons le plus l'habitude de voir dans nos maisons.",
-      "image": "https://www.talotarvike.com/images/big/gustavsberg_nordic_3_3500_wc_istuin.jpg",
+      "image": "/products/categorie-toilettes-occidentales-france.jpg",
       "products": [
         {
           "slug_product": "isis-swarovski",
@@ -114,7 +114,7 @@
       "slug_category": "toilettes-classiques",
       "description": "Souvent appelées toilettes à la turque en France, ces toilettes sont très répandues dans le monde.",
       "content": "Souvent appelées toilettes à la turque en France, ces toilettes sont très répandues dans le monde.",
-      "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/8/87/JapaneseSquatToilet.jpg",
+      "image": "/products/categorie-toilettes-turque-squat.png",
       "products": [
         {
           "slug_product": "bourguignon-jacob-delafon",
@@ -151,7 +151,7 @@
       "slug_category": "toilettes-japonaises",
       "description": "Les toilettes japonaises sont les plus modernes avec de nombreuses fonctionnalités pour renforcer l'hygiène.",
       "content": "Les toilettes japonaises sont les plus modernes avec de nombreuses fonctionnalités pour renforcer l'hygiène.",
-      "image": "https://i.ytimg.com/vi/iWW6Cs95DEs/maxresdefault.jpg",
+      "image": "/products/categorie-toilettes-japonaises-high-tech-nettoyantes.jpg",
       "products": [
         {
           "slug_product": "laita-premium-geberit",
@@ -203,8 +203,8 @@
           "name": "Smart Toilet",
           "brand": "Ove Decors",
           "price": 1200,
-          "description": "Parmis les meilleurs toilettes intelligents du marché. Une excellente combinaison de fonctionnalités et de qualité de finition.",
-          "content": "Parmis les meilleurs toilettes intelligents du marché. Une excellente combinaison de fonctionnalités et de qualité de finition.",
+          "description": "Parmi les meilleures toilettes intelligentes du marché. Une excellente combinaison de fonctionnalités et de qualité de finition.",
+          "content": "Parmi les meilleures toilettes intelligentes du marché. Une excellente combinaison de fonctionnalités et de qualité de finition. Couvercle avec crémaillère pour plus de discrétion. La chasse d'eau intégrée à l'arrière, masquée derrière la cuvette, donne un style magnifiquement épuré à l'ensemble.",
           "picture": "/products/toilettes-smart-ove.png"
         },
         {
@@ -233,7 +233,7 @@
       "slug_category": "toilettes-seches",
       "description": "Ne nécessitant aucune consommation d'eau, les toilettes sèches sont en plein boum du fait des considérations écologiques.",
       "content": "Ne nécessitant aucune consommation d'eau, les toilettes sèches sont en plein boum du fait des considérations écologiques.",
-      "image": "https://www.minimaxoutdoor.fr/950-thickbox_default/toilettes-seches-.jpg",
+      "image": "/products/categorie-toilettes-seches.jpg",
       "products": [
         {
           "slug_product": "chene-seche",

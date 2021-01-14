@@ -52,7 +52,7 @@ function Header() {
             </li>
             <li>
               <Link to="/toilettes-seches/" title="Toilettes sèches">
-                Toilettes seches
+                Toilettes sèches
               </Link>
             </li>
           </ul>
