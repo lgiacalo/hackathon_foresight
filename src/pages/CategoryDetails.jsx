@@ -23,16 +23,16 @@ const CategoryDetails = () => {
       <Helmet>
         <meta
           property="og:url"
-          content={`https://cabinett-test1.netlify.app/${slug_category}/`}
+          content={`https://cabinet-404.netlify.app/${slug_category}/`}
         />
         <meta
           name="twitter:url"
-          content={`https://cabinett-test1.netlify.app/${slug_category}/`}
+          content={`https://cabinet-404.netlify.app/${slug_category}/`}
         />
-        <title>Cabinett - Votre expert en toilettes - {category.name}</title>
+        <title>Cabinet - Votre expert en toilettes - {category.name}</title>
         <link
           rel="canonical"
-          href={`https://cabinett-test1.netlify.app/${slug_category}/`}
+          href={`https://cabinet-404.netlify.app/${slug_category}/`}
         />
         <meta name="description" content={category.description} />
       </Helmet>

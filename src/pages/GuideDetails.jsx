@@ -22,16 +22,16 @@ const GuideDetails = () => {
       <Helmet>
         <meta
           property="og:url"
-          content={`https://cabinett.netlify.app/guides/${slug_guide}/`}
+          content={`https://cabinet-404.netlify.app/guides/${slug_guide}/`}
         />
         <meta
           name="twitter:url"
-          content={`https://cabinett.netlify.app/guides/${slug_guide}/`}
+          content={`https://cabinet-404.netlify.app/guides/${slug_guide}/`}
         />
-        <title>Cabinett - Expert en toilettes - {guide.name}</title>
+        <title>Cabinet - Expert en toilettes - {guide.name}</title>
         <link
           rel="canonical"
-          href={`https://cabinett.netlify.app/guides/${slug_guide}/`}
+          href={`https://cabinet-404.netlify.app/guides/${slug_guide}/`}
         />
         <meta name="description" content={guide.sumup} />
       </Helmet>

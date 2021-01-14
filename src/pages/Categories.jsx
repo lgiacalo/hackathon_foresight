@@ -11,20 +11,20 @@ const Categories = () => {
       <Helmet>
         <meta
           property="og:url"
-          content="https://cabinett-test1.netlify.app/categories/"
+          content="https://cabinet-404.netlify.app/categories/"
         />
         <meta
           name="twitter:url"
-          content="https://cabinett-test1.netlify.app/categories/"
+          content="https://cabinet-404.netlify.app/categories/"
         />
-        <title>Cabinett | Votre expert en toilettes - Catégories</title>
+        <title>Cabinet | Votre expert en toilettes - Catégories</title>
         <link
           rel="canonical"
-          href="https://cabinett-test1.netlify.app/categories/"
+          href="https://cabinet-404.netlify.app/categories/"
         />
         <meta
           name="description"
-          content="Cabinett - Votre expert en toilettes - Description De toutes les categories"
+          content="Cabinet - Votre expert en toilettes - Description De toutes les categories"
         />
       </Helmet>
       <nav>
