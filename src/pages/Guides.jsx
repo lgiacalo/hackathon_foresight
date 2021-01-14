@@ -11,11 +11,11 @@ const Guides = () => {
       <Helmet>
         <meta
           property="og:url"
-          content="https://cabinett.netlify.app/categories/guides/"
+          content="https://cabinett.netlify.app/guides/"
         />
         <meta
           property="twitter:url"
-          content="https://cabinett.netlify.app/categories/guides/"
+          content="https://cabinett.netlify.app/guides/"
         />
         <title>Cabinett - Guides</title>
         <link rel="canonical" href="https://cabinett.netlify.app/guides/" />
