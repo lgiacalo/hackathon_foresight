@@ -33,7 +33,7 @@ const GuideDetails = () => {
           rel="canonical"
           href={`https://cabinett.netlify.app/guides/${slug_guide}/`}
         />
-        <meta name="description" content={guide.description} />
+        <meta name="description" content={guide.sumup} />
       </Helmet>
       <nav>
         <Link to="/">Accueil</Link> |{" "}
