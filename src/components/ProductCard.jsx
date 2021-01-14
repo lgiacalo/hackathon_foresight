@@ -11,7 +11,7 @@ const ProductCard = ({
   return (
     <article>
       <h2>
-        <Link to={`/${slug_category}/${slug_product}`}>{name}</Link>
+        <Link to={`/${slug_category}/${slug_product}/`}>{name}</Link>
       </h2>
       {/* <p>{description}</p> */}
       <p>{image}</p>
