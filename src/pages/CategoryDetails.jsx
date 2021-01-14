@@ -23,16 +23,16 @@ const CategoryDetails = () => {
       <Helmet>
         <meta
           property="og:url"
-          content={`https://cabinett.netlify.app/${slug_category}/`}
+          content={`https://cabinett-test1.netlify.app/${slug_category}/`}
         />
         <meta
-          property="twitter:url"
-          content={`https://cabinett.netlify.app/${slug_category}/`}
+          name="twitter:url"
+          content={`https://cabinett-test1.netlify.app/${slug_category}/`}
         />
         <title>{category.name}</title>
         <link
           rel="canonical"
-          href={`https://cabinett.netlify.app/${slug_category}/`}
+          href={`https://cabinett-test1.netlify.app/${slug_category}/`}
         />
         <meta name="description" content={category.description} />
       </Helmet>
