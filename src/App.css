@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400&display=swap&family=Montserrat&display=swap");
-
+.globalContainer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .pageContainer {
   width: 100%;
   position: absolute;
@@ -9,8 +13,11 @@
 
 header {
   background-color: rgb(247, 247, 247);
+  box-sizing: border-box;
   padding: 1.5rem;
-  height: 11rem;
+  height: auto;
+  width: 100%;
+  max-height: 12rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -19,16 +26,40 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
+header h1 {
+  max-width: 450px;
+}
+header h1,
+header h1 a,
+header h1 a img {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+}
+
+header nav ul li {
+  margin: 1rem 0.5rem;
+  padding: 1rem 3rem;
+  background: linear-gradient(-45deg, #eee, #fff, #eee);
+  border: solid 0.5px #fff;
+  border-radius: 2em 2%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  color: #000;
+  cursor: pointer;
+  text-align: center;
+}
+
 header nav ul li a {
   text-decoration: none;
-  color: rgb(247, 247, 247);
+  color: #000;
 }
 header .logo {
   margin-bottom: 1rem;
-  max-width: 300px;
+  max-width: 400px;
 }
 header .search {
-  width: 90%;
+  width: 80%;
   font-size: 1rem;
   max-height: 2rem;
   padding: 0.4rem;
@@ -71,8 +102,15 @@ header nav ul {
   overflow: hidden;
   z-index: 20;
 } */
+header .navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .menu {
-  width: 8rem;
+  width: 100%;
   display: grid;
   grid-template-columns: 100%;
   grid-gap: 0;
@@ -80,12 +118,10 @@ header nav ul {
 }
 .menu-toggle {
   border: none;
-  background-color: hsla(192, 57%, 20%, 0.849);
-  color: rgb(247, 247, 247);
   width: 4rem;
-  height: 2rem;
   margin: 0 auto;
-  font-size: 1rem;
+  font-size: 3rem;
+  color: #000;
 }
 .menu-toggle:hover,
 .menu-list:hover {
@@ -96,7 +132,6 @@ header nav ul {
   display: grid;
   grid-template-columns: 100%;
   grid-gap: 0;
-  background-color: hsla(192, 57%, 20%, 0.849);
   z-index: 10;
 }
 .menu-list li {
@@ -147,7 +182,7 @@ footer a {
   color: #333;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1200px) {
   header nav label {
     display: none;
   }
@@ -170,13 +205,14 @@ footer a {
   header nav ul li {
     margin: 1rem 0.5rem;
     padding: 1rem 3rem;
-    /* background-color: rgb(179, 179, 179); */
     background: linear-gradient(-45deg, #eee, #fff, #eee);
     border: solid 0.5px #fff;
     border-radius: 2em 2%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
       rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    color: #000;
     cursor: pointer;
+    text-align: center;
   }
   header nav ul li:hover {
     border: solid 1px rgb(141, 141, 141);
@@ -186,6 +222,22 @@ footer a {
     margin: 1rem 5%;
   }
   header .navbar {
-    width: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-toggle {
+    display: none;
+  }
+  .menu ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 0;
+    z-index: 10;
+  }
+  .menu ul {
+    padding: 0.5rem 0;
+    text-align: center;
   }
 }
