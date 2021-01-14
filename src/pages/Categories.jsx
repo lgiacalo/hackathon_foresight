@@ -17,7 +17,7 @@ const Categories = () => {
           name="twitter:url"
           content="https://cabinett-test1.netlify.app/categories/"
         />
-        <title>Cabinett - Votre expert en toilettes - Categories</title>
+        <title>Cabinett | Votre expert en toilettes - Catégories</title>
         <link
           rel="canonical"
           href="https://cabinett-test1.netlify.app/categories/"
@@ -28,10 +28,10 @@ const Categories = () => {
         />
       </Helmet>
       <nav>
-        <Link to="/">Accueil</Link> |
+        <Link to="/">Accueil</Link> | Catégories
       </nav>
 
-      <h1>Liste des Categories</h1>
+      <h1>Liste des Catégories</h1>
       <p>
         Que ce soit pour leurs origines géographiques ou leur modernité, il
         existe plusieurs catégories de toilettes. Envie d'un retour à la nature

@@ -4,11 +4,13 @@ import { Link } from "react-router-dom";
 const CategorieCard = ({ name, description, image, slug_category }) => {
   return (
     <article>
-      <h3>
-        <Link to={`/${slug_category}/`}>{name}</Link>
-      </h3>
-      <img src={image} alt={name} />
-      <p>{description}</p>
+      <Link to={`/${slug_category}/`}>
+        <div>
+          <h3>Toilettes {name}</h3>
+          <img src={image} alt={name} />
+          <p>{description}</p>
+        </div>
+      </Link>
     </article>
   );
 };
