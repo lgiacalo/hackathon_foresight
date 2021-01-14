@@ -1,9 +1,10 @@
 {
   "categories": [
     {
-      "name": "Occidentaux",
-      "slug_category": "toilettes-occidentaux",
+      "name": "Occidentales",
+      "slug_category": "toilettes-occidentales",
       "description": "Les toilettes occidentales sont celles que nous avons le plus l'habitude de voir dans nos maisons.",
+      "image": "https://www.talotarvike.com/images/big/gustavsberg_nordic_3_3500_wc_istuin.jpg",
       "products": [
         {
           "slug_product": "isis-swarovski",
@@ -99,6 +100,7 @@
       "name": "Classiques",
       "slug_category": "toilettes-classiques",
       "description": "Souvent appelées toilettes à la turque en France, ces toilettes sont très répandues dans le monde.",
+      "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/8/87/JapaneseSquatToilet.jpg",
       "products": [
         {
           "slug_product": "bourguignon-jacob-delafon",
@@ -127,9 +129,10 @@
       ]
     },
     {
-      "name": "Japonais",
-      "slug_category": "toilettes-japonais",
+      "name": "Japonaises",
+      "slug_category": "toilettes-japonaises",
       "description": "Les toilettes japonaises sont les plus modernes avec de nombreuses fonctionnalités pour renforcer l'hygiène.",
+      "image": "https://i.ytimg.com/vi/iWW6Cs95DEs/maxresdefault.jpg",
       "products": [
         {
           "slug_product": "laita-premium-geberit",
@@ -201,6 +204,7 @@
       "name": "Sèches",
       "slug_category": "toilettes-seches",
       "description": "Ne nécessitant aucune consommation d'eau, les toilettes sèches sont en plein boum du fait des considérations écologiques.",
+      "image": "https://www.minimaxoutdoor.fr/950-thickbox_default/toilettes-seches-.jpg",
       "products": [
         {
           "slug_product": "chene-seche",
