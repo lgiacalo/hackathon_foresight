@@ -19,7 +19,7 @@ const CategoryDetails = () => {
   if (!category) return <NotFound />;
 
   return (
-    <article>
+    <div className="pageContainer categoryContainer">
       <Helmet>
         <title>{category.name}</title>
         {/* <link rel="canonical" href="" /> */}
@@ -29,8 +29,9 @@ const CategoryDetails = () => {
         <Link to="/">Accueil</Link> |
       </nav>
 
-      <h2>Categorie: {category.name}</h2>
-      <p>Description de la categorie{category.description}</p>
+      <h2>Categorie : {category.name}</h2>
+      <p>{category.description}</p>
+      <section className="multipleProductsContainer">
       {category.products.map((p, i) => (
         <ProductCard
           key={p.slug_product + i}
@@ -38,7 +39,8 @@ const CategoryDetails = () => {
           slug_category={slug_category}
         />
       ))}
-    </article>
+      </section>
+    </div>
   );
 };
 

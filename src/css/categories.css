@@ -22,14 +22,17 @@
   padding: 0 0.5rem;
   margin-bottom: 1rem;
 }
-.multipleCategoriesContainer {
+.multipleCategoriesContainer,
+.multipleProductsContainer {
   box-sizing: border-box;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: flex-start;
 }
-.multipleCategoriesContainer article {
+
+.multipleCategoriesContainer article,
+.multipleProductsContainer article {
   box-sizing: border-box;
   width: 45%;
   height: 20rem;
@@ -40,15 +43,18 @@
   justify-content: space-between;
   align-items: center;
 }
-.multipleCategoriesContainer article a {
+.multipleCategoriesContainer article a,
+.multipleProductsContainer article a {
   text-decoration: none;
   color: #000;
 }
-.multipleCategoriesContainer article p {
+.multipleCategoriesContainer article p,
+.multipleProductsContainer article p {
   text-align: center;
   padding: 0 0.25rem;
 }
-.multipleCategoriesContainer article img {
+.multipleCategoriesContainer article img,
+.multipleProductsContainer article img {
   max-width: 90%;
   max-height: 70%;
   margin: 0.5rem 0;
