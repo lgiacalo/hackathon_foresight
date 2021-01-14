@@ -17,7 +17,7 @@ const Categories = () => {
           name="twitter:url"
           content="https://cabinett-test1.netlify.app/categories/"
         />
-        <title>Cabinett - Categories</title>
+        <title>Cabinett - Votre expert en toilettes - Categories</title>
         <link
           rel="canonical"
           href="https://cabinett-test1.netlify.app/categories/"

@@ -17,7 +17,7 @@ const Guides = () => {
           name="twitter:url"
           content="https://cabinett.netlify.app/guides/"
         />
-        <title>Cabinett - Guides</title>
+        <title>Cabinett - Votre expert en toilettes - Guides</title>
         <link rel="canonical" href="https://cabinett.netlify.app/guides/" />
         <meta name="description" content="Description de toutes les guides " />
       </Helmet>
