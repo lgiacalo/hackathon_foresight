@@ -5,7 +5,7 @@ import "../css/home.css";
 
 const Home = () => {
   return (
-    <div className="pageContainer Home">
+    <main className="pageContainer Home">
       <Helmet>
         <title>Cabinett</title>
         <link rel="canonical" href="https://cabinett.netlify.app/" />
@@ -14,7 +14,7 @@ const Home = () => {
           content="Le spécialiste des toilettes, en tout genre, de tous les pays et pour tous les prix !"
         />
       </Helmet>
-      <h2>Home Page</h2>
+      <h1>Home Page</h1>
       <Link to="/categories/">Liste Catégories</Link>
       <section>
         <article className="animation-phare">
@@ -116,7 +116,7 @@ const Home = () => {
         sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </article>
-    </div>
+    </main>
   );
 };
 
