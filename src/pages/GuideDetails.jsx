@@ -25,7 +25,7 @@ const GuideDetails = () => {
           content={`https://cabinett.netlify.app/guides/${slug_guide}/`}
         />
         <meta
-          property="twitter:url"
+          name="twitter:url"
           content={`https://cabinett.netlify.app/guides/${slug_guide}/`}
         />
         <title>{guide.name}</title>

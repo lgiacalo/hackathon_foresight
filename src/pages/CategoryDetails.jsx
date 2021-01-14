@@ -26,7 +26,7 @@ const CategoryDetails = () => {
           content={`https://cabinett-test1.netlify.app/${slug_category}/`}
         />
         <meta
-          property="twitter:url"
+          name="twitter:url"
           content={`https://cabinett-test1.netlify.app/${slug_category}/`}
         />
         <title>{category.name}</title>

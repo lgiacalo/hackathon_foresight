@@ -9,7 +9,7 @@ const Home = () => {
       <Helmet>
         <meta property="og:url" content="https://cabinett-test1.netlify.app/" />
         <meta
-          property="twitter:url"
+          name="twitter:url"
           content="https://cabinett-test1.netlify.app/"
         />
         <title>Cabinett</title>

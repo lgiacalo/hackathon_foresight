@@ -14,7 +14,7 @@ const Guides = () => {
           content="https://cabinett.netlify.app/guides/"
         />
         <meta
-          property="twitter:url"
+          name="twitter:url"
           content="https://cabinett.netlify.app/guides/"
         />
         <title>Cabinett - Guides</title>

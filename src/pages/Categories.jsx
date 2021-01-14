@@ -14,7 +14,7 @@ const Categories = () => {
           content="https://cabinett-test1.netlify.app/categories/"
         />
         <meta
-          property="twitter:url"
+          name="twitter:url"
           content="https://cabinett-test1.netlify.app/categories/"
         />
         <title>Cabinett - Categories</title>

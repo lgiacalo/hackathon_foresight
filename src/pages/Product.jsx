@@ -32,7 +32,7 @@ const Product = () => {
           content={`https://cabinett-test1.netlify.app/${slug_category}/${slug_product}/`}
         />
         <meta
-          property="twitter:url"
+          name="twitter:url"
           content={`https://cabinett-test1.netlify.app/${slug_category}/${slug_product}/`}
         />
         <title>{product.name}</title>
