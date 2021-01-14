@@ -19,7 +19,10 @@ const Guides = () => {
         />
         <title>Cabinett - Votre expert en toilettes - Guides</title>
         <link rel="canonical" href="https://cabinett.netlify.app/guides/" />
-        <meta name="description" content="Description de toutes les guides " />
+        <meta
+          name="description"
+          content="Cabinett - Votre expert en toilettes - Description de toutes les guides disponibles"
+        />
       </Helmet>
       <nav>
         <Link to="/">Accueil</Link> |

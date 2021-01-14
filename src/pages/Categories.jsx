@@ -24,7 +24,7 @@ const Categories = () => {
         />
         <meta
           name="description"
-          content="Description De toutes les categories "
+          content="Cabinett - Votre expert en toilettes - Description De toutes les categories"
         />
       </Helmet>
       <nav>
