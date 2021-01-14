@@ -27,27 +27,30 @@ const Home = () => {
             title="Quelles toilettes choisir ?"
           >
             <img
-              src="https://via.placeholder.com/800x305.png?text=Quelles+toilettes+choisir+?"
+              src="https://www.simplek12.com/wp-content/uploads/2016/04/thinking-thinking-maps-woman-thinking.jpg"
               alt="Quelles toilettes choisir ?"
             />
+            <p>Quelles toilettes choisir ?</p>
           </Link>
         </article>
         <div className="animation-dual-group">
           <article className="animation-dual">
             <Link to="/guides/" title="Guides">
               <img
-                src="https://via.placeholder.com/800x342.png?text=Guides"
+                src="https://i.ytimg.com/vi/RmpmmUE-PCs/maxresdefault.jpg"
                 alt="Guides"
               />
+              <p>Tous nos guides</p>
             </Link>
           </article>
           <article className="animation-dual">
             <Link to="/categories/" title="Toutes nos catégories de WC">
               <img
                 className="animation-triplet"
-                src="https://via.placeholder.com/800x342.png?text=Toutes-nos-categories-de-WC"
+                src="https://www.alsco.com.au/wp-content/uploads/2018/11/how-many-toilets-do-you-need-toilet-cubicles-3.jpg"
                 alt="Voir toutes nos catégories de WC"
               />
+              <p>Nos catégories de WC</p>
             </Link>
           </article>
         </div>
@@ -62,7 +65,7 @@ const Home = () => {
                 src="/products/toilettes-k-3900-kohler.png"
                 alt="Modèle K-3900 Numi One Piece Elongated Toilet"
               />
-              <h3>Modèle K-3900 Numi One Piece Elongated Toilet</h3>
+              <h3>Modèle K-3900 Numi</h3>
               <span className="best-product-link">Plus d'info</span>
             </Link>
           </article>

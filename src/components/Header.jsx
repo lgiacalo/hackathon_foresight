@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <header>
-      <div>
+      <div className="logoTitle">
         <Link to="/" title="Cabi.net">
           <img
             className="logo"

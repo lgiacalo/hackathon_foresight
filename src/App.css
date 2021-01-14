@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400&display=swap&family=Montserrat&display=swap");
-h1 {
+.logoTitle {
   font-family: "Libre Franklin", "Arial", sans-serif;
   font-size: 2em;
 }
@@ -31,14 +31,14 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-header h1 {
+header .logoTitle {
   max-width: 450px;
   color: transparent;
   font-size: 0.1rem;
 }
-header h1,
-header h1 a,
-header h1 a img {
+header .logoTitle,
+header .logoTitle a,
+header .logoTitle a img {
   box-sizing: border-box;
   width: 100%;
   margin: 0;
