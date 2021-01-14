@@ -37,7 +37,7 @@
   padding-top: 0.25rem;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: left;
+  justify-content: space-between;
   align-items: center;
 }
 .multipleCategoriesContainer article a {
@@ -50,7 +50,13 @@
 }
 .multipleCategoriesContainer article img {
   max-width: 90%;
-  max-height: 50%;
+  max-height: 70%;
   margin: 0.5rem 0;
   border: 0.5rem solid #000;
+}
+@media only screen and (min-width: 800px) {
+  .multipleCategoriesContainer article {
+    margin: 2rem 0;
+    width: 22%;
+  }
 }
