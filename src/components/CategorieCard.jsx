@@ -7,8 +7,8 @@ const CategorieCard = ({ name, description, image, slug_category }) => {
       <h3>
         <Link to={`/${slug_category}`}>{name}</Link>
       </h3>
+      <img src={image} alt={name}/>
       <p>{description}</p>
-      <p>{image}</p>
     </article>
   );
 };

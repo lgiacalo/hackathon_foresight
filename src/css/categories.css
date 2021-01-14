@@ -11,10 +11,10 @@
 }
 .categoryContainer h2 {
   width: 100%;
-  text-align: center;
-  padding-bottom: 0.5rem;
   margin-bottom: 1rem;
   font-size: 1rem;
+  text-align: left;
+  padding-bottom: 0.3rem;
   border-bottom: solid 3px #000;
 }
 .categoryContainer p {
@@ -32,16 +32,25 @@
 .multipleCategoriesContainer article {
   box-sizing: border-box;
   width: 45%;
-  height: 12rem;
-  border: 0.5rem solid #000;
+  height: 20rem;
   margin: 0.25rem 0;
+  padding-top: 0.25rem;
   display: flex;
   flex-flow: column nowrap;
   justify-content: left;
   align-items: center;
 }
+.multipleCategoriesContainer article a {
+  text-decoration: none;
+  color: #000;
+}
 .multipleCategoriesContainer article p {
   text-align: center;
   padding: 0 0.25rem;
-  margin-top: 0.5rem;
+}
+.multipleCategoriesContainer article img {
+  max-width: 90%;
+  max-height: 50%;
+  margin: 0.5rem 0;
+  border: 0.5rem solid #000;
 }
