@@ -44,8 +44,8 @@ const Product = () => {
       </Helmet>
       <nav>
         <Link to="/">Accueil</Link> |
-        <Link to={`/${slug_category}`}>Toilettes {category.name}</Link> | Modèle{" "}
-        {product.name}
+        <Link to={`/${slug_category}/`}>Toilettes {category.name}</Link> |
+        Modèle {product.name}
       </nav>
 
       <article>

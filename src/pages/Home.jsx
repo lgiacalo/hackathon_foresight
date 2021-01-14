@@ -20,7 +20,10 @@ const Home = () => {
       <Link to="/categories/">Liste Catégories</Link>
       <section>
         <article className="animation-phare">
-          <Link to="/guides/quelles-toilettes-choisir/" title="Quelles toilettes choisir ?">
+          <Link
+            to="/guides/quelles-toilettes-choisir/"
+            title="Quelles toilettes choisir ?"
+          >
             <img
               src="https://via.placeholder.com/800x305.png?text=Quelles+toilettes+choisir+?"
               alt="Quelles toilettes choisir ?"
@@ -30,14 +33,17 @@ const Home = () => {
         <div className="animation-dual-group">
           <article className="animation-dual">
             <Link to="/guides/" title="Guides">
-            <img
-              src="https://via.placeholder.com/800x342.png?text=Guides"
-              alt="Guides"
+              <img
+                src="https://via.placeholder.com/800x342.png?text=Guides"
+                alt="Guides"
               />
             </Link>
           </article>
           <article className="animation-dual">
-            <Link to="/guides/comment-installer-ses-toilettes" title="Comment installer ses toilettes ?">
+            <Link
+              to="/guides/comment-installer-ses-toilettes/"
+              title="Comment installer ses toilettes ?"
+            >
               <img
                 className="animation-triplet"
                 src="https://via.placeholder.com/800x342.png?text=Comment+installer+ses+toilettes+?"
