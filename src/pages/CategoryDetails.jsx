@@ -23,25 +23,26 @@ const CategoryDetails = () => {
       <Helmet>
         <meta
           property="og:url"
-          content={`https://cabinett.netlify.app/${slug_category}/`}
+          content={`https://cabinett-test1.netlify.app/${slug_category}/`}
         />
         <meta
-          property="twitter:url"
-          content={`https://cabinett.netlify.app/${slug_category}/`}
+          name="twitter:url"
+          content={`https://cabinett-test1.netlify.app/${slug_category}/`}
         />
         <title>{category.name}</title>
         <link
           rel="canonical"
-          href={`https://cabinett.netlify.app/${slug_category}/`}
+          href={`https://cabinett-test1.netlify.app/${slug_category}/`}
         />
         <meta name="description" content={category.description} />
       </Helmet>
       <nav>
-        <Link to="/">Accueil</Link> | <Link to="/categories/">Liste des catégories</Link> | {category.name}
+        <Link to="/">Accueil</Link> |{" "}
+        <Link to="/categories/">Liste des catégories</Link> | {category.name}
       </nav>
 
       <h2>Catégorie : toilettes {category.name}</h2>
-      <p>{category.description}</p>
+      <p>{category.content}</p>
       <section className="multipleProductsContainer">
         {category.products.map((p, i) => (
           <ProductCard

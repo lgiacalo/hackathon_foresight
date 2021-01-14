@@ -11,14 +11,17 @@ const Categories = () => {
       <Helmet>
         <meta
           property="og:url"
-          content="https://cabinett.netlify.app/categories/"
+          content="https://cabinett-test1.netlify.app/categories/"
         />
         <meta
-          property="twitter:url"
-          content="https://cabinett.netlify.app/categories/"
+          name="twitter:url"
+          content="https://cabinett-test1.netlify.app/categories/"
         />
         <title>Cabinett - Categories</title>
-        <link rel="canonical" href="https://cabinett.netlify.app/categories/" />
+        <link
+          rel="canonical"
+          href="https://cabinett-test1.netlify.app/categories/"
+        />
         <meta
           name="description"
           content="Description De toutes les categories "

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logoBrand from "../assets/cabinet-logo.svg";
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -13,7 +12,11 @@ function Header() {
     <header>
       <div>
         <Link to="/" title="Cabi.net">
-          <img className="logo" src={logoBrand} alt="cabi.net" />
+          <img
+            className="logo"
+            src="/img/cabinet-logo.svg"
+            alt="logo cabi.net"
+          />
         </Link>
       </div>
       <div className="navbar">

@@ -4,6 +4,7 @@
       "name": "Occidentales",
       "slug_category": "toilettes-occidentales",
       "description": "Les toilettes occidentales sont celles que nous avons le plus l'habitude de voir dans nos maisons.",
+      "content": "Les toilettes occidentales sont celles que nous avons le plus l'habitude de voir dans nos maisons.",
       "image": "https://www.talotarvike.com/images/big/gustavsberg_nordic_3_3500_wc_istuin.jpg",
       "products": [
         {
@@ -11,7 +12,8 @@
           "name": "Isis",
           "brand": "Swarovski",
           "price": 75000,
-          "description": "Quel plus beau symbole du luxe que des cristaux Swarovski ? Jemal Wright a designé ces toilettes inscrustés de cristaux pour ceux qui éxigent un niveau de luxe inégalé, tout le temps.",
+          "description": "Jemal Wright a designé ces toilettes inscrustés de cristaux.",
+          "content": "Quel plus beau symbole du luxe que des cristaux Swarovski ? Jemal Wright a designé ces toilettes inscrustés de cristaux pour ceux qui éxigent un niveau de luxe inégalé, tout le temps.",
           "picture": "/products/toilettes-isis-swarovski.jpg"
         },
         {
@@ -19,7 +21,8 @@
           "name": "Reve",
           "brand": "Jacob Delafon",
           "price": 889,
-          "description": "Caractère unique et affirmé avec ses associations de lignes tendues et d'angles doux. Cuvette carénée jusqu'au mur, fixations cachées pour une visibilité et une accessibilité totale. Déclipsable pour un accès aux surfaces rarement nettoyées, équipé d'un frein de chute pour le confort sonore.",
+          "description": "Caractère unique et affirmé avec ses associations de lignes tendues et d'angles doux. Cuvette carénée jusqu'au mur, fixations cachées.",
+          "content": "Caractère unique et affirmé avec ses associations de lignes tendues et d'angles doux. Cuvette carénée jusqu'au mur, fixations cachées pour une visibilité et une accessibilité totale. Déclipsable pour un accès aux surfaces rarement nettoyées, équipé d'un frein de chute pour le confort sonore.",
           "picture": "/products/toilettes-reve-jacob-delafon.png"
         },
         {
@@ -27,7 +30,8 @@
           "name": "Presqu'île",
           "brand": "Jacob Delafon",
           "price": 719,
-          "description": "Lignes douces et élégantes, robinet flotteur silencieux. Déclipsable pour un accès aux surfaces rarement nettoyées, équipé d'un frein de chute pour le confort sonore.",
+          "description": "Lignes douces et élégantes, robinet flotteur silencieux. Déclipsable pour un accès aux surfaces rarement nettoyées.",
+          "content": "Lignes douces et élégantes, robinet flotteur silencieux. Déclipsable pour un accès aux surfaces rarement nettoyées, équipé d'un frein de chute pour le confort sonore.",
           "picture": "/products/toilettes-presquile-jacob-delafon.png"
         },
         {
@@ -35,7 +39,8 @@
           "name": "Provence '700",
           "brand": "Bleu Provence",
           "price": 666,
-          "description": "WC au sol blanc avec réservoir monobloc.",
+          "description": "WC au sol blanc avec réservoir monobloc. Un style indémodable qui s'adapte dans toutes les maisons.",
+          "content": "WC au sol blanc avec réservoir monobloc. Un style indémodable qui s'adapte dans toutes les maisons.",
           "picture": "/products/toilettes-700-bleu-provence.png"
         },
         {
@@ -43,7 +48,8 @@
           "name": "Provence '900",
           "brand": "Bleu Provence",
           "price": 600,
-          "description": "WC au sol blanc (sortie verticale) avec réservoir haut avec couvercle.",
+          "description": "WC au sol blanc (sortie verticale) avec réservoir haut avec couvercle pour un look vintage assuré.",
+          "content": "WC au sol blanc (sortie verticale) avec réservoir haut avec couvercle pour un look vintage assuré.",
           "picture": "/products/toilettes-900-bleu-provence.png"
         },
         {
@@ -51,7 +57,8 @@
           "name": "Escale",
           "brand": "Jacob Delafon",
           "price": 839,
-          "description": "Châssis acier résistant à une charge de 400 Kg, traité anti-corrosion. Cuvette aux formes équilibrées inspirées par l'art asiatique. Abattant équipé d'un système de frein de chute pour une fermeture progressive.",
+          "description": "Châssis acier résistant à une charge de 400 Kg, traité anti-corrosion. Cuvette aux formes équilibrées inspirées par l'art asiatique.",
+          "content": "Châssis acier résistant à une charge de 400 Kg, traité anti-corrosion. Cuvette aux formes équilibrées inspirées par l'art asiatique. Abattant équipé d'un système de frein de chute pour une fermeture progressive.",
           "picture": "/products/toilettes-escale-jacob-delafon.png"
         },
         {
@@ -59,7 +66,8 @@
           "name": "Subway",
           "brand": "Villeroy & Boch",
           "price": 679,
-          "description": "La technologie sans bride de la cuvette offre une meilleure hygiène tout en simplifiant le nettoyage. Ensemble Bâti support Grohe Rapid SL Autoportant. Réservoir et mécanisme certifié NF. Réservoir isolé anti-condensation Livré avec plaque de commande double débit (réglage d'usine 3/6L). Chassis en acier epoxy. cuvette suspendue Villeroy et Boch Subway sans bride et abattant frein de chute.",
+          "description": "La technologie sans bride de la cuvette offre une meilleure hygiène tout en simplifiant le nettoyage.",
+          "content": "La technologie sans bride de la cuvette offre une meilleure hygiène tout en simplifiant le nettoyage. Ensemble Bâti support Grohe Rapid SL Autoportant. Réservoir et mécanisme certifié NF. Réservoir isolé anti-condensation Livré avec plaque de commande double débit (réglage d'usine 3/6L). Chassis en acier epoxy. cuvette suspendue Villeroy et Boch Subway sans bride et abattant frein de chute.",
           "picture": "/products/toilettes-subway-villeroy-boch.png"
         },
         {
@@ -67,7 +75,8 @@
           "name": "Cavally",
           "brand": "GoodHome",
           "price": 239,
-          "description": "Optimisation et économie assurées avec le pack WC 2 en 1 de la gamme Cavally ! Très pratique pour les petites surfaces, cet ensemble WC à sortie horizontale avec son lavabo intégré vous offrira un gain de place non négligeable. Réutilisant l’eau du lave-mains pour la chasse d’eau, ces toilettes vous font également faire des économies grâce à son mécanisme 3/6L.",
+          "description": "Optimisation et économie assurées avec le pack WC 2 en 1 de la gamme Cavally ! Très pratique pour les petites surfaces.",
+          "content": "Optimisation et économie assurées avec le pack WC 2 en 1 de la gamme Cavally ! Très pratique pour les petites surfaces, cet ensemble WC à sortie horizontale avec son lavabo intégré vous offrira un gain de place non négligeable. Réutilisant l’eau du lave-mains pour la chasse d’eau, ces toilettes vous font également faire des économies grâce à son mécanisme 3/6L.",
           "picture": "/products/toilettes-cavally-goodhome.jpg"
         },
         {
@@ -75,7 +84,8 @@
           "name": "Trio",
           "brand": "Siamp",
           "price": 599,
-          "description": "Aménagez facilement un lave-mains dans vos WC Bâti-support gain de place avec commande double volume en face avant Mécanisme de chasse à câble économiseur d'eau 2,5/4 litres Robinet flotteur à économie d'eau par ouverture différée Cuvette suspendue Sento 100% carénée NF Abattant Vence Premium : bactéricide, frein de chute et déclipsable Vasque blanche en céramique Robinet eau froide uniquement à manette (chromé brillant).",
+          "description": "Aménagez facilement un lave-mains dans vos WC Bâti-support gain de place avec commande double volume en face avant.",
+          "content": "Aménagez facilement un lave-mains dans vos WC Bâti-support gain de place avec commande double volume en face avant Mécanisme de chasse à câble économiseur d'eau 2,5/4 litres Robinet flotteur à économie d'eau par ouverture différée Cuvette suspendue Sento 100% carénée NF Abattant Vence Premium : bactéricide, frein de chute et déclipsable Vasque blanche en céramique Robinet eau froide uniquement à manette (chromé brillant).",
           "picture": "/products/toilettes-trio-siamp.png"
         },
         {
@@ -83,7 +93,8 @@
           "name": "Osmose rimfree",
           "brand": "Geberit",
           "price": 599,
-          "description": "Ce WC rimfree permet un nettoyage simplifié.",
+          "description": "Ce WC rimfree permet un nettoyage simplifié ainsi qu'une assise confortable.",
+          "content": "Ce WC rimfree permet un nettoyage simplifié ainsi qu'une assise confortable.",
           "picture": "/products/toilettes-osmose-geberit.png"
         },
         {
@@ -92,6 +103,7 @@
           "brand": "Geberit",
           "price": 664,
           "description": "Pack WC Prima Multi à sortie orientable, prêt à poser, livré dans un emballage unique.",
+          "content": "Pack WC Prima Multi à sortie orientable, prêt à poser, livré dans un emballage unique.",
           "picture": "/products/toilettes-prima-multi.png"
         }
       ],
@@ -101,6 +113,7 @@
       "name": "Classiques",
       "slug_category": "toilettes-classiques",
       "description": "Souvent appelées toilettes à la turque en France, ces toilettes sont très répandues dans le monde.",
+      "content": "Souvent appelées toilettes à la turque en France, ces toilettes sont très répandues dans le monde.",
       "image": "https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/8/87/JapaneseSquatToilet.jpg",
       "products": [
         {
@@ -108,7 +121,8 @@
           "name": "Bourguignon 2",
           "brand": "Jacob Delafon",
           "price": 129,
-          "description": "Le siège à la turque Bourguignon 2 de chez Jacob Delafon présente toutes les caractéristiques des WC collectifs : économiques, hygiéniques. Faciles à entretenir, du fait qu ils ne possèdent pas d assise, ils consomment moins d eau qu une cuvette wc standard. A encastrer au sol, ces toilettes de conception anciennes restent l allié des collectivités du fait de la limitation de la propagation des microbes.",
+          "description": "Le siège à la turque Bourguignon 2 de chez Jacob Delafon présente toutes les caractéristiques des WC collectifs.",
+          "content": "Le siège à la turque Bourguignon 2 de chez Jacob Delafon présente toutes les caractéristiques des WC collectifs : économiques, hygiéniques. Faciles à entretenir, du fait qu ils ne possèdent pas d assise, ils consomment moins d eau qu une cuvette wc standard. A encastrer au sol, ces toilettes de conception anciennes restent l allié des collectivités du fait de la limitation de la propagation des microbes.",
           "picture": "/products/toilettes-bourguignon-jacob-delafon.png"
         },
         {
@@ -116,7 +130,8 @@
           "name": "SNPT01C",
           "brand": "Mediclinics",
           "price": 80,
-          "description": "Des toilettes classiques en acier inoxydable avec une finition brillante.",
+          "description": "Des toilettes classiques en acier inoxydable avec une finition brillante pour une grande propreté.",
+          "content": "Des toilettes classiques en acier inoxydable avec une finition brillante pour une grande propreté.",
           "picture": "/products/toilettes-snpt01c-mediclinics.jpg"
         },
         {
@@ -124,7 +139,8 @@
           "name": "Squatting pan",
           "brand": "Rak Ceramics",
           "price": 100,
-          "description": "Finition céramique blanche alpine pour ces toilettes ",
+          "description": "Finition céramique blanche alpine pour ces toilettes au style particulier.",
+          "content": "Finition céramique blanche alpine pour ces toilettes au style particulier.",
           "picture": "/products/toilettes-squatting-pan-rak-ceramics.png"
         }
       ],
@@ -134,6 +150,7 @@
       "name": "Japonaises",
       "slug_category": "toilettes-japonaises",
       "description": "Les toilettes japonaises sont les plus modernes avec de nombreuses fonctionnalités pour renforcer l'hygiène.",
+      "content": "Les toilettes japonaises sont les plus modernes avec de nombreuses fonctionnalités pour renforcer l'hygiène.",
       "image": "https://i.ytimg.com/vi/iWW6Cs95DEs/maxresdefault.jpg",
       "products": [
         {
@@ -141,7 +158,8 @@
           "name": "Laïta Premium",
           "brand": "Geberit",
           "price": 2879,
-          "description": "Le WC lavant Geberit AquaClean assure propreté et bien-être en toute facilité, et offre à l'utilisateur, par la simple pression d'une touche, une sensation de fraîcheur délicate pour un sentiment de confort et d'assurance tout au long de la journée. Le Pack WC lavant Geberit AquaClean Laïta Premium est composé d’un WC lavant doté de nombreuses fonctions, d’un bâti-support fiable et durable et d’une plaque de déclenchement double touche (3/6 L) permettant des économies d’eau.",
+          "description": "Le WC lavant Geberit AquaClean assure propreté et bien-être en toute facilité, et offre à l'utilisateur, par la simple pression d'une touche, une sensation de fraîcheur.",
+          "content": "Le WC lavant Geberit AquaClean assure propreté et bien-être en toute facilité, et offre à l'utilisateur, par la simple pression d'une touche, une sensation de fraîcheur délicate pour un sentiment de confort et d'assurance tout au long de la journée. Le Pack WC lavant Geberit AquaClean Laïta Premium est composé d’un WC lavant doté de nombreuses fonctions, d’un bâti-support fiable et durable et d’une plaque de déclenchement double touche (3/6 L) permettant des économies d’eau.",
           "picture": "/products/toilettes-laita-premium-geberit.png"
         },
         {
@@ -149,7 +167,8 @@
           "name": "Laïta Essentiel",
           "brand": "Geberit",
           "price": 1799,
-          "description": "Le WC lavant Geberit AquaClean assure propreté et bien-être en toute facilité, et offre à l'utilisateur, par la simple pression d'une touche, une sensation de fraîcheur délicate pour un sentiment de confort et d'assurance tout au long de la journée. Le Pack WC lavant Geberit AquaClean Laïta Essentiel est composé d’un WC lavant doté de nombreuses fonctions, d’un bâti-support fiable et durable et d’une plaque de déclenchement double touche (3/6 L) permettant des économies d’eau.",
+          "description": "Le WC lavant Geberit AquaClean assure une sensation de fraîcheur délicate pour un sentiment de confort et d'assurance tout au long de la journée.",
+          "content": "Le WC lavant Geberit AquaClean assure propreté et bien-être en toute facilité, et offre à l'utilisateur, par la simple pression d'une touche, une sensation de fraîcheur délicate pour un sentiment de confort et d'assurance tout au long de la journée. Le Pack WC lavant Geberit AquaClean Laïta Essentiel est composé d’un WC lavant doté de nombreuses fonctions, d’un bâti-support fiable et durable et d’une plaque de déclenchement double touche (3/6 L) permettant des économies d’eau.",
           "picture": "/products/toilettes-laita-essentiel-geberit.png"
         },
         {
@@ -157,7 +176,8 @@
           "name": "Habillage",
           "brand": "Habillage",
           "price": 1590,
-          "description": "Ce wc est la clé d'une hygiène irréprochable au quotidien. Doté d'un système révolutionnaire, il répond parfaitement aux attentes des exigences modernes en matière de confort et de qualité de vie. Grâce à son filtre anti-impuretée, elle met ses adeptes à l'abri de la corvée d'entretien au quotidien. Facile à installer, le produit est fourni avec un bâti avec façade en verre blanc et une cuvette carénée « sans bride » en céramique blanche.",
+          "description": "Ce wc est la clé d'une hygiène irréprochable au quotidien. Doté d'un système révolutionnaire, il répond parfaitement aux attentes des exigences modernes.",
+          "content": "Ce wc est la clé d'une hygiène irréprochable au quotidien. Doté d'un système révolutionnaire, il répond parfaitement aux attentes des exigences modernes en matière de confort et de qualité de vie. Grâce à son filtre anti-impuretée, elle met ses adeptes à l'abri de la corvée d'entretien au quotidien. Facile à installer, le produit est fourni avec un bâti avec façade en verre blanc et une cuvette carénée « sans bride » en céramique blanche.",
           "picture": "/products/toilettes-habillage-suspendu.png"
         },
         {
@@ -165,7 +185,8 @@
           "name": "Luxe Platinium 2 Plus",
           "brand": "TopToilet",
           "price": 1400,
-          "description": "Le nouveau WC lavant Monobloc TOPTOILET Platinium2+ est un WC Japonais intégré d’un design exceptionnel. Son écran LCD bleu disposant de toutes les informations utiles et sa télécommande à radiofréquence avec support mural magnétique vous apporteront une grande facilité d’utilisation.",
+          "description": "Le nouveau WC lavant Monobloc TOPTOILET Platinium2+ est un WC Japonais intégré d’un design exceptionnel.",
+          "content": "Le nouveau WC lavant Monobloc TOPTOILET Platinium2+ est un WC Japonais intégré d’un design exceptionnel. Son écran LCD bleu disposant de toutes les informations utiles et sa télécommande à radiofréquence avec support mural magnétique vous apporteront une grande facilité d’utilisation.",
           "picture": "/products/toilettes-luxe-platinium-2-toptoilet.png"
         },
         {
@@ -173,7 +194,8 @@
           "name": "Luxe Diamond Plus",
           "brand": "TopToilet",
           "price": 1300,
-          "description": "Le nouveau WC lavant Monobloc TOPTOILET Diamond+ est un WC Japonais intégré d’un design exceptionnel. Ses dimensions réduites s’intégreront aisément dans vos toilettes. Son écran LCD bleu disposant de toutes les informations utiles et sa télécommande à radiofréquence avec support mural magnétique vous apporteront une grande facilité d’utilisation.",
+          "description": "Le WC lavant Monobloc TOPTOILET Diamond+ est un WC aux dimensions réduites qui s’intégreront aisément dans vos toilettes.",
+          "content": "Le nouveau WC lavant Monobloc TOPTOILET Diamond+ est un WC Japonais intégré d’un design exceptionnel. Ses dimensions réduites s’intégreront aisément dans vos toilettes. Son écran LCD bleu disposant de toutes les informations utiles et sa télécommande à radiofréquence avec support mural magnétique vous apporteront une grande facilité d’utilisation.",
           "picture": "/products/toilettes-luxe-diamond-toptoilet.png"
         },
         {
@@ -182,6 +204,7 @@
           "brand": "Ove Decors",
           "price": 1200,
           "description": "Parmis les meilleurs toilettes intelligents du marché. Une excellente combinaison de fonctionnalités et de qualité de finition.",
+          "content": "Parmis les meilleurs toilettes intelligents du marché. Une excellente combinaison de fonctionnalités et de qualité de finition.",
           "picture": "/products/toilettes-smart-ove.png"
         },
         {
@@ -189,7 +212,8 @@
           "name": "Dual Flush Elongated Toilet",
           "brand": "Toto Neorest",
           "price": 7000,
-          "description": "Les apports luxueux sont visibles dès qu'on approches ces toilettes... Et ils continuent d'impressioner à l'utilisation. Un design futuriste qui deviendra la pièce centrale de toute salle de bain.",
+          "description": "Les apports luxueux sont visibles dès qu'on approches ces toilettes... Et ils continuent d'impressioner à l'utilisation.",
+          "content": "Les apports luxueux sont visibles dès qu'on approches ces toilettes... Et ils continuent d'impressioner à l'utilisation. Un design futuriste qui deviendra la pièce centrale de toute salle de bain.",
           "picture": "/products/toilettes-dual-flush-toto.png"
         },
         {
@@ -197,7 +221,8 @@
           "name": "K-3900 Numi One Piece Elongated Toilet",
           "brand": "Kohler",
           "price": 8775,
-          "description": "Un design et une technologie sans pareil pour un confort et une hygiène inégalés.",
+          "description": "Un design et une technologie sans pareil pour un confort et une hygiène inégalés aux allures de grand luxe.",
+          "content": "Un design et une technologie sans pareil pour un confort et une hygiène inégalés aux allures de grand luxe.",
           "picture": "/products/toilettes-k-3900-kohler.png"
         }
       ],
@@ -207,6 +232,7 @@
       "name": "Sèches",
       "slug_category": "toilettes-seches",
       "description": "Ne nécessitant aucune consommation d'eau, les toilettes sèches sont en plein boum du fait des considérations écologiques.",
+      "content": "Ne nécessitant aucune consommation d'eau, les toilettes sèches sont en plein boum du fait des considérations écologiques.",
       "image": "https://www.minimaxoutdoor.fr/950-thickbox_default/toilettes-seches-.jpg",
       "products": [
         {
@@ -215,6 +241,7 @@
           "brand": "Sèche",
           "price": 405,
           "description": "Sans eau sur place, et sans évacuation d'assainissement, ce WC répond à la demande d'un lieu d'aisance ponctuel ou de camping.",
+          "content": "Sans eau sur place, et sans évacuation d'assainissement, ce WC répond à la demande d'un lieu d'aisance ponctuel ou de camping.",
           "picture": "/products/toilettes-chene-seche.png"
         },
         {
@@ -223,6 +250,7 @@
           "brand": "Lécopot",
           "price": 729,
           "description": " Une toilette sèche aux formes classiques et rassurantes d'un grand confort avec sa réserve à copeaux intégrée.",
+          "content": " Une toilette sèche aux formes classiques et rassurantes d'un grand confort avec sa réserve à copeaux intégrée.",
           "picture": "/products/toilettes-cagarol-lecopot.png"
         },
         {
@@ -230,7 +258,8 @@
           "name": "La Belladonna",
           "brand": "Lécopot",
           "price": 650,
-          "description": "Le modèle très chic de Lécopot. Avec ses formes galbées et son seau inox apparent, la Belladonna est l'argument esthétique en faveur des toilettes sèches partout dans la maison. Une toilette sèche décomplexée.",
+          "description": "Le modèle très chic de Lécopot. Avec ses formes galbées et son seau inox apparent, la Belladonna est l'argument esthétique.",
+          "content": "Le modèle très chic de Lécopot. Avec ses formes galbées et son seau inox apparent, la Belladonna est l'argument esthétique en faveur des toilettes sèches partout dans la maison. Une toilette sèche décomplexée.",
           "picture": "/products/toilettes-belladonna-lecopot.png"
         },
         {
@@ -239,6 +268,7 @@
           "brand": "Lécopot",
           "price": 569,
           "description": "Une toilette sèche pour toute la famille avec sa grande réserve à copeaux facilement accessible aux enfants.",
+          "content": "Une toilette sèche pour toute la famille avec sa grande réserve à copeaux facilement accessible aux enfants et aux grands.",
           "picture": "/products/toilettes-nouveau-papillon-douglas-lecopot.png"
         }
       ],

@@ -29,18 +29,18 @@ const Product = () => {
       <Helmet>
         <meta
           property="og:url"
-          content={`https://cabinett.netlify.app/${slug_category}/${slug_product}/`}
+          content={`https://cabinett-test1.netlify.app/${slug_category}/${slug_product}/`}
         />
         <meta
-          property="twitter:url"
-          content={`https://cabinett.netlify.app/${slug_category}/${slug_product}/`}
+          name="twitter:url"
+          content={`https://cabinett-test1.netlify.app/${slug_category}/${slug_product}/`}
         />
         <title>{product.name}</title>
         <link
           rel="canonical"
-          href={`https://cabinett.netlify.app/${slug_category}/${slug_product}/`}
+          href={`https://cabinett-test1.netlify.app/${slug_category}/${slug_product}/`}
         />
-        <meta name="description" content={product.description} />
+        <meta name="description" content={product.content} />
       </Helmet>
       <nav>
         <Link to="/">Accueil</Link> |{" "}
@@ -51,7 +51,7 @@ const Product = () => {
 
       <article>
         <div>
-          <h2>Modèle {product.name}</h2>
+          <h1>Modèle {product.name}</h1>
           <p className="productDescription">{product.description}</p>
           <p className="priceBasket">
             <span className="productPrice">
