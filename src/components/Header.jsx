@@ -1,14 +1,13 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logoBrand from "../assets/cabinet-logo.svg";
 
-function Header () {
-
+function Header() {
   const [open, setOpen] = useState(false);
 
-  const handleClick = () =>{
+  const handleClick = () => {
     open ? setOpen(false) : setOpen(true);
-  }
+  };
 
   return (
     <header>
@@ -26,8 +25,8 @@ function Header () {
         <nav className="menu">
           {/* <input id="menu-toggle" className="menu-toggle" type="checkbox" onClick={handleClick} /> */}
           <button className="menu-toggle" onClick={handleClick}>
-            <span className={open ? "hidden" : "shown"}>☰</span>
-            <span className={open ? "shown" : "hidden"}>❌</span>
+            <span className={open ? "hidden" : ""}>☰</span>
+            <span className={open ? "" : "hidden"}>❌</span>
           </button>
           <ul className={open ? "menu-list" : "hidden"}>
             <li>
@@ -55,6 +54,6 @@ function Header () {
       </div>
     </header>
   );
-};
+}
 
 export default Header;
