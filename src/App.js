@@ -27,7 +27,7 @@ function App() {
           <Guides />
         </Route>
 
-        <Route path="/guides/:slug_guide">
+        <Route path="/guides/:slug_guide/">
           <GuideDetails />
         </Route>
 
