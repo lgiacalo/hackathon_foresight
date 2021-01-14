@@ -30,23 +30,23 @@ function Header() {
           </button>
           <ul className={open ? "menu-list" : "hidden"}>
             <li>
-              <Link to="/" title="categorie">
-                categorie1
+              <Link to="/toilettes-occidentales/" title="Toilettes occidentales">
+              Toilettes occidentales
               </Link>
             </li>
             <li>
-              <Link to="/" title="categorie">
-                categorie2
+              <Link to="/toilettes-classiques/" title="Toilettes classiques">
+              Toilettes classiques
               </Link>
             </li>
             <li>
-              <Link to="/" title="categorie">
-                categorie3
+              <Link to="/toilettes-japonaises/" title="Toilettes japonaises">
+              Toilettes japonaises
               </Link>
             </li>
             <li>
-              <Link to="/" title="categorie">
-                categorie4
+              <Link to="/toilettes-seches/" title="Toilettes seches">
+              Toilettes seches
               </Link>
             </li>
           </ul>
