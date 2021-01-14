@@ -7,6 +7,14 @@ const NotFound = () => {
   return (
     <>
       <Helmet>
+        <meta
+          property="og:url"
+          content="https://cabinett.netlify.app/not-found-404"
+        />
+        <meta
+          property="twitter:url"
+          content="https://cabinett.netlify.app/not-found-404"
+        />
         <title>Cabinett - 404 Not Found</title>
         <link
           rel="canonical"

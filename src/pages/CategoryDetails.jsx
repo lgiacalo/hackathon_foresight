@@ -21,6 +21,14 @@ const CategoryDetails = () => {
   return (
     <div className="pageContainer categoryContainer">
       <Helmet>
+        <meta
+          property="og:url"
+          content={`https://cabinett.netlify.app/${slug_category}/`}
+        />
+        <meta
+          property="twitter:url"
+          content={`https://cabinett.netlify.app/${slug_category}/`}
+        />
         <title>{category.name}</title>
         <link
           rel="canonical"
@@ -35,13 +43,13 @@ const CategoryDetails = () => {
       <h2>Categorie : {category.name}</h2>
       <p>{category.description}</p>
       <section className="multipleProductsContainer">
-      {category.products.map((p, i) => (
-        <ProductCard
-          key={p.slug_product + i}
-          {...p}
-          slug_category={slug_category}
-        />
-      ))}
+        {category.products.map((p, i) => (
+          <ProductCard
+            key={p.slug_product + i}
+            {...p}
+            slug_category={slug_category}
+          />
+        ))}
       </section>
     </div>
   );

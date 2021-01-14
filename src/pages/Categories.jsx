@@ -9,6 +9,14 @@ const Categories = () => {
   return (
     <div className="pageContainer categoryContainer">
       <Helmet>
+        <meta
+          property="og:url"
+          content="https://cabinett.netlify.app/categories/"
+        />
+        <meta
+          property="twitter:url"
+          content="https://cabinett.netlify.app/categories/"
+        />
         <title>Cabinett - Categories</title>
         <link rel="canonical" href="https://cabinett.netlify.app/categories/" />
         <meta

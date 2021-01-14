@@ -7,6 +7,8 @@ const Home = () => {
   return (
     <main className="pageContainer Home">
       <Helmet>
+        <meta property="og:url" content="https://cabinett.netlify.app/" />
+        <meta property="twitter:url" content="https://cabinett.netlify.app/" />
         <title>Cabinett</title>
         <link rel="canonical" href="https://cabinett.netlify.app/" />
         <meta
