@@ -27,11 +27,10 @@ const Home = () => {
         </article>
         <div className="animation-dual-group">
           <article className="animation-dual">
-            <Link to="/" title="">
-              <img
-                className=""
-                src="https://via.placeholder.com/800x342.png?text=Voir+tous+nos+guides"
-                alt=""
+            <Link to="/guides/" title="Guides">
+            <img
+              src="https://via.placeholder.com/800x305.png?text=Guides"
+              alt="Guides"
               />
             </Link>
           </article>
