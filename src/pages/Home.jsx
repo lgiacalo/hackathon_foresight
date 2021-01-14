@@ -20,10 +20,10 @@ const Home = () => {
       <Link to="/categories/">Liste Catégories</Link>
       <section>
         <article className="animation-phare">
-          <Link to="/" title="">
+          <Link to="/guides/quelles-toilettes-choisir/" title="Quelles toilettes choisir ?">
             <img
-              src="https://via.placeholder.com/800x305.png?text=Focus+sur+les+economies+d+eau"
-              alt=""
+              src="https://via.placeholder.com/800x305.png?text=Quelles+toilettes+choisir+?"
+              alt="Quelles toilettes choisir ?"
             />
           </Link>
         </article>
@@ -31,17 +31,17 @@ const Home = () => {
           <article className="animation-dual">
             <Link to="/guides/" title="Guides">
             <img
-              src="https://via.placeholder.com/800x305.png?text=Guides"
+              src="https://via.placeholder.com/800x342.png?text=Guides"
               alt="Guides"
               />
             </Link>
           </article>
           <article className="animation-dual">
-            <Link to="/" title="">
+            <Link to="/guides/comment-installer-ses-toilettes" title="Comment installer ses toilettes ?">
               <img
                 className="animation-triplet"
-                src="https://via.placeholder.com/800x342.png?text=Toilettes+sans+eau"
-                alt=""
+                src="https://via.placeholder.com/800x342.png?text=Comment+installer+ses+toilettes+?"
+                alt="Comment installer ses toilettes ?"
               />
             </Link>
           </article>
