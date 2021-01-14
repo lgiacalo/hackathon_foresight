@@ -32,7 +32,7 @@ const Product = () => {
       </Helmet>
       <nav>
         <Link to="/">Accueil</Link> |
-        <Link to={`/${slug_category}`}>Toilettes {category.name}</Link>
+        <Link to={`/${slug_category}/`}>Toilettes {category.name}</Link>
       </nav>
 
       <h2>Toilette: {product.name}</h2>
