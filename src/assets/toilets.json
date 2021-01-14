@@ -31,7 +31,7 @@
           "brand": "Jacob Delafon",
           "price": 719,
           "description": "Lignes douces et élégantes, robinet flotteur silencieux. Déclipsable pour un accès aux surfaces rarement nettoyées.",
-          "content": "Lignes douces et élégantes, robinet flotteur silencieux. Déclipsable pour un accès aux surfaces rarement nettoyées, équipé d'un frein de chute pour le confort sonore.",
+          "content": "Lignes douces et élégantes, robinet flotteur silencieux. Déclipsable pour un accès aux surfaces rarement nettoyées, équipé d'un frein de chute pour le confort sonore. Made in France, cuvette garantie 10 ans.",
           "picture": "/products/toilettes-presquile-jacob-delafon.png"
         },
         {
@@ -40,7 +40,7 @@
           "brand": "Bleu Provence",
           "price": 666,
           "description": "WC au sol blanc avec réservoir monobloc. Un style indémodable qui s'adapte dans toutes les maisons.",
-          "content": "WC au sol blanc avec réservoir monobloc. Un style indémodable qui s'adapte dans toutes les maisons.",
+          "content": "WC au sol blanc avec réservoir monobloc, avec la fameuse tirette à l'ancienne permettant de tirer la chasse d'eau. Un style indémodable, symbole de la mode rétro !",
           "picture": "/products/toilettes-700-bleu-provence.png"
         },
         {
@@ -90,11 +90,11 @@
         },
         {
           "slug_product": "osmose-geberit",
-          "name": "Osmose rimfree",
+          "name": "Osmose Rimfree",
           "brand": "Geberit",
           "price": 599,
-          "description": "Ce WC rimfree permet un nettoyage simplifié ainsi qu'une assise confortable.",
-          "content": "Ce WC rimfree permet un nettoyage simplifié ainsi qu'une assise confortable.",
+          "description": "Ce WC Rimfree permet un nettoyage simplifié ainsi qu'une assise confortable.",
+          "content": "Ce WC Rimfree permet un nettoyage simplifié ainsi qu'une assise confortable. Vous pouvez habiller le réservoir de chasse d'eau avec ce que vous souhaitez pour une meilleure intégration à votre intérieur, par exemple avec les mêmes carrelages que ceux de votre salle de bains. Montage très facile.",
           "picture": "/products/toilettes-osmose-geberit.png"
         },
         {
@@ -131,7 +131,7 @@
           "brand": "Mediclinics",
           "price": 80,
           "description": "Des toilettes classiques en acier inoxydable avec une finition brillante pour une grande propreté.",
-          "content": "Des toilettes classiques en acier inoxydable avec une finition brillante pour une grande propreté.",
+          "content": "Des toilettes classiques en acier inoxydable avec une finition brillante pour une grande propreté. La construction en acier inoxydable protège le produit contre la rouille et garantit qualité et longévité. En outre, il est plus hygiénique, résistant à l'usure et résistera aux chocs. Zones de pied à motifs antidérapants. Deux buses de rinçage frontales qui assurent un lavage efficace.",
           "picture": "/products/toilettes-snpt01c-mediclinics.jpg"
         },
         {
@@ -186,7 +186,7 @@
           "brand": "TopToilet",
           "price": 1400,
           "description": "Le nouveau WC lavant Monobloc TOPTOILET Platinium2+ est un WC Japonais intégré d’un design exceptionnel.",
-          "content": "Le nouveau WC lavant Monobloc TOPTOILET Platinium2+ est un WC Japonais intégré d’un design exceptionnel. Son écran LCD bleu disposant de toutes les informations utiles et sa télécommande à radiofréquence avec support mural magnétique vous apporteront une grande facilité d’utilisation.",
+          "content": "Le nouveau WC lavant Monobloc TOPTOILET Platinium2+ est un WC Japonais intégré d’un design exceptionnel. Son écran LCD bleu disposant de toutes les informations utiles et sa télécommande à radiofréquence avec support mural magnétique vous apporteront une grande facilité d’utilisation. De plus, Le désodorisant intégré, le détecteur de présence, la descente amortie du siège et du couvercle et la chasse d’eau automatique avec réservoir intégré vous offriront un confort d’utilisation parfait.",
           "picture": "/products/toilettes-luxe-platinium-2-toptoilet.png"
         },
         {
@@ -195,7 +195,7 @@
           "brand": "TopToilet",
           "price": 1300,
           "description": "Le WC lavant Monobloc TOPTOILET Diamond+ est un WC aux dimensions réduites qui s’intégreront aisément dans vos toilettes.",
-          "content": "Le nouveau WC lavant Monobloc TOPTOILET Diamond+ est un WC Japonais intégré d’un design exceptionnel. Ses dimensions réduites s’intégreront aisément dans vos toilettes. Son écran LCD bleu disposant de toutes les informations utiles et sa télécommande à radiofréquence avec support mural magnétique vous apporteront une grande facilité d’utilisation.",
+          "content": "Le nouveau WC lavant Monobloc TOPTOILET Diamond+ est un WC Japonais intégré d’un design exceptionnel. Ses dimensions réduites s’intégreront aisément dans vos toilettes. Son écran LCD bleu disposant de toutes les informations utiles et sa télécommande à radiofréquence avec support mural magnétique vous apporteront une grande facilité d’utilisation. Son écran LCD bleu disposant de toutes les informations utiles et sa télécommande à radiofréquence avec support mural magnétique vous apporteront une grande facilité d’utilisation. Le désodorisant intégré, le détecteur de présence, la descente amortie du siège et du couvercle et la chasse d’eau automatique à triple lavage vous offriront un confort d’utilisation parfait. L’ouverture/fermeture automatique du siège et du couvercle atteint le summum du luxe et de la propreté.",
           "picture": "/products/toilettes-luxe-diamond-toptoilet.png"
         },
         {
@@ -250,7 +250,7 @@
           "brand": "Lécopot",
           "price": 729,
           "description": " Une toilette sèche aux formes classiques et rassurantes d'un grand confort avec sa réserve à copeaux intégrée.",
-          "content": " Une toilette sèche aux formes classiques et rassurantes d'un grand confort avec sa réserve à copeaux intégrée.",
+          "content": "Un bon compromis pour passer tout doucement aux toilettes sèches, avec ses formes classiques et rassurantes. Ce modèle est d'un grand confort avec sa réserve à copeaux intégrée : tout est à portée de mains ! Le réservoir de 42, en acier inoxydable, vous permet une grande autonomie entre deux vidanges.",
           "picture": "/products/toilettes-cagarol-lecopot.png"
         },
         {
@@ -259,7 +259,7 @@
           "brand": "Lécopot",
           "price": 650,
           "description": "Le modèle très chic de Lécopot. Avec ses formes galbées et son seau inox apparent, la Belladonna est l'argument esthétique.",
-          "content": "Le modèle très chic de Lécopot. Avec ses formes galbées et son seau inox apparent, la Belladonna est l'argument esthétique en faveur des toilettes sèches partout dans la maison. Une toilette sèche décomplexée.",
+          "content": "Le modèle très chic de Lécopot. Avec ses formes galbées et son seau inox apparent, la Belladonna est l'argument esthétique en faveur des toilettes sèches partout dans la maison. Une toilette sèche décomplexée. Son seau de 15 litres en acier inoxydable vous assurera une autonomie appréciable.",
           "picture": "/products/toilettes-belladonna-lecopot.png"
         },
         {
@@ -268,7 +268,7 @@
           "brand": "Lécopot",
           "price": 569,
           "description": "Une toilette sèche pour toute la famille avec sa grande réserve à copeaux facilement accessible aux enfants.",
-          "content": "Une toilette sèche pour toute la famille avec sa grande réserve à copeaux facilement accessible aux enfants et aux grands.",
+          "content": "Une toilette sèche pour toute la famille avec sa grande réserve à copeaux facilement accessible aux enfants et aux grands. Tous couvercles fermés, le tout permet un nettoyage aisé. La marque Lécopot est d'une grande qualité de fabrication.",
           "picture": "/products/toilettes-nouveau-papillon-douglas-lecopot.png"
         }
       ],
