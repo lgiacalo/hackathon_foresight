@@ -43,7 +43,8 @@ const Product = () => {
         <meta name="description" content={product.description} />
       </Helmet>
       <nav>
-        <Link to="/">Accueil</Link> |
+        <Link to="/">Accueil</Link> |{" "}
+        <Link to="/categories/">Liste des catégories</Link> |{" "}
         <Link to={`/${slug_category}/`}>Toilettes {category.name}</Link> |
         Modèle {product.name}
       </nav>

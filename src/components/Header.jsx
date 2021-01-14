@@ -14,7 +14,7 @@ function Header() {
       <h1>
         <Link to="/" title="Cabi.net">
           <img className="logo" src={logoBrand} alt="cabi.net" />
-        </Link>
+        </Link> Cabi.net
       </h1>
       <div className="navbar">
         <input
