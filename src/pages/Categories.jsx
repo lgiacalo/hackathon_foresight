@@ -28,7 +28,7 @@ const Categories = () => {
         <Link to="/">Accueil</Link> |
       </nav>
 
-      <h2>Liste des Categories</h2>
+      <h1>Liste des Categories</h1>
       <p>
         Que ce soit pour leurs origines géographiques ou leur modernité, il
         existe plusieurs catégories de toilettes. Envie d'un retour à la nature

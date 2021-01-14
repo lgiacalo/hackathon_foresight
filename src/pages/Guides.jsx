@@ -25,7 +25,7 @@ const Guides = () => {
         <Link to="/">Accueil</Link> |
       </nav>
 
-      <h2>Liste des Guides</h2>
+      <h1>Liste des Guides</h1>
       <p>
         Il n'est pas toujours évident de choisir les bons toilettes. En effet,
         entre les questions de goût et de style, chacun a des envies différentes
