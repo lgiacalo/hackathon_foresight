@@ -12,7 +12,7 @@ const Home = () => {
           name="twitter:url"
           content="https://cabinett-test1.netlify.app/"
         />
-        <title>Cabinett</title>
+        <title>Cabinett - Votre expert en toilettes</title>
         <link rel="canonical" href="https://cabinett-test1.netlify.app/" />
         <meta
           name="description"
