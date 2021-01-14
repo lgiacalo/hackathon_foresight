@@ -61,7 +61,8 @@
   border: 0.5rem solid #000;
 }
 @media only screen and (min-width: 800px) {
-  .multipleCategoriesContainer article {
+  .multipleCategoriesContainer article,
+  .multipleProductsContainer article {
     margin: 2rem 0;
     width: 22%;
   }
