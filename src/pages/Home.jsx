@@ -12,8 +12,8 @@ const Home = () => {
         <meta name="description" content="Description Cabinett " />
       </Helmet>
       <h2>Home Page</h2>
-      <Link to="/categories">Liste Catégories</Link> |
-      <Link to="/toilettes-occidentaux">Catégorie Toilette sèche</Link> |
+      <Link to="/categories/">Liste Catégories</Link> |
+      <Link to="/toilettes-occidentaux/">Catégorie Toilette sèche</Link> |
       <section>
         <article className="animation-phare">
           <Link to="/" title="">
