@@ -27,7 +27,7 @@ const Home = () => {
             title="Quelles toilettes choisir ?"
           >
             <img
-              src="https://www.simplek12.com/wp-content/uploads/2016/04/thinking-thinking-maps-woman-thinking.jpg"
+              src="/products/quels-wc-choisir.webp"
               alt="Quelles toilettes choisir ?"
             />
             <p>Quelles toilettes choisir ?</p>
@@ -36,10 +36,7 @@ const Home = () => {
         <div className="animation-dual-group">
           <article className="animation-dual">
             <Link to="/guides/" title="Guides">
-              <img
-                src="https://i.ytimg.com/vi/RmpmmUE-PCs/maxresdefault.jpg"
-                alt="Guides"
-              />
+              <img src="/products/guides.webp" alt="Guides" />
               <p>Tous nos guides</p>
             </Link>
           </article>
@@ -47,7 +44,7 @@ const Home = () => {
             <Link to="/categories/" title="Toutes nos catégories de WC">
               <img
                 className="animation-triplet"
-                src="https://www.alsco.com.au/wp-content/uploads/2018/11/how-many-toilets-do-you-need-toilet-cubicles-3.jpg"
+                src="/products/categories-wc.webp"
                 alt="Voir toutes nos catégories de WC"
               />
               <p>Nos catégories de WC</p>
