@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400&display=swap&family=Montserrat&display=swap");
+h1 {
+  font-family: "Libre Franklin", "Arial", sans-serif;
+  font-size: 2em;
+}
+
 .globalContainer {
   margin: 0;
   padding: 0;
@@ -6,8 +11,8 @@
 }
 .pageContainer {
   width: 100%;
-  position: absolute;
-  top: 15rem;
+  position: relative;
+  top: 2rem;
 }
 /* ------ HEADER ------ */
 
