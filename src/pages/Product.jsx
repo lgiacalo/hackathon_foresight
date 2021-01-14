@@ -40,7 +40,7 @@ const Product = () => {
           rel="canonical"
           href={`https://cabinett.netlify.app/${slug_category}/${slug_product}/`}
         />
-        <meta name="description" content={product.description} />
+        <meta name="description" content={product.content} />
       </Helmet>
       <nav>
         <Link to="/">Accueil</Link> |{" "}

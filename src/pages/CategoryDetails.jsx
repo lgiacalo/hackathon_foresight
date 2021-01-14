@@ -41,8 +41,8 @@ const CategoryDetails = () => {
         <Link to="/categories/">Liste des catégories</Link> | {category.name}
       </nav>
 
-      <h1>Catégorie : toilettes {category.name}</h1>
-      <p>{category.description}</p>
+      <h2>Catégorie : toilettes {category.name}</h2>
+      <p>{category.content}</p>
       <section className="multipleProductsContainer">
         {category.products.map((p, i) => (
           <ProductCard
