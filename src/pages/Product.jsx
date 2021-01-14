@@ -40,7 +40,7 @@ const Product = () => {
           rel="canonical"
           href={`https://cabinett-test1.netlify.app/${slug_category}/${slug_product}/`}
         />
-        <meta name="description" content={product.content} />
+        <meta name="description" content={product.description} />
       </Helmet>
       <nav>
         <Link to="/">Accueil</Link> |{" "}
@@ -52,7 +52,7 @@ const Product = () => {
       <article>
         <div>
           <h1>Modèle {product.name}</h1>
-          <p className="productDescription">{product.description}</p>
+          <p className="productDescription">{product.content}</p>
           <p className="priceBasket">
             <span className="productPrice">
               {product.price}{" "}
