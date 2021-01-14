@@ -27,6 +27,14 @@ const Product = () => {
   return (
     <article className="pageContainer Product">
       <Helmet>
+        <meta
+          property="og:url"
+          content={`https://cabinett.netlify.app/${slug_category}/${slug_product}/`}
+        />
+        <meta
+          property="twitter:url"
+          content={`https://cabinett.netlify.app/${slug_category}/${slug_product}/`}
+        />
         <title>{product.name}</title>
         <link
           rel="canonical"
@@ -60,7 +68,6 @@ const Product = () => {
             </Link>
           </p>
         </div>
-
         <img src={product.picture} alt={product.name} />
       </article>
     </article>

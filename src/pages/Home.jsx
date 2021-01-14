@@ -5,8 +5,10 @@ import "../css/home.css";
 
 const Home = () => {
   return (
-    <div className="pageContainer Home">
+    <main className="pageContainer Home">
       <Helmet>
+        <meta property="og:url" content="https://cabinett.netlify.app/" />
+        <meta property="twitter:url" content="https://cabinett.netlify.app/" />
         <title>Cabinett</title>
         <link rel="canonical" href="https://cabinett.netlify.app/" />
         <meta
@@ -14,7 +16,7 @@ const Home = () => {
           content="Le spécialiste des toilettes, en tout genre, de tous les pays et pour tous les prix !"
         />
       </Helmet>
-      <h2>Home Page</h2>
+      <h1>Home Page</h1>
       <Link to="/categories/">Liste Catégories</Link>
       <section>
         <article className="animation-phare">
@@ -104,18 +106,15 @@ const Home = () => {
         </div>
       </article>
       <article className="chapo">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Saviez vous combien de temps nous passons aux WC, en moyenne ? Cela
+        représente en moyenne 3 ans de notre vie&nbsp;! Chez{" "}
+        <strong>Cabi.net</strong>, nous avons décidé de vous faciliter la tâche
+        pour trouver le WC qui vous convienne. Envie de goûter au confort des{" "}
+        <Link to="/toilettes-occidentales/">
+          toilettes de luxe à la japonaise
+        </Link>{" "}
       </article>
-    </div>
+    </main>
   );
 };
 
