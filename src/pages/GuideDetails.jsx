@@ -20,18 +20,27 @@ const GuideDetails = () => {
   return (
     <div className="pageContainer guideContainer">
       <Helmet>
+        <meta
+          property="og:url"
+          content={`https://cabinett.netlify.app/guides/${slug_guide}/`}
+        />
+        <meta
+          property="twitter:url"
+          content={`https://cabinett.netlify.app/guides/${slug_guide}/`}
+        />
         <title>{guide.name}</title>
         <link
           rel="canonical"
           href={`https://cabinett.netlify.app/guides/${slug_guide}/`}
         />
-        <meta name="description" content={guide.description} />
+        <meta name="description" content={guide.sumup} />
       </Helmet>
       <nav>
-        <Link to="/">Accueil</Link> | <Link to="/guides/">Liste des guides</Link>
+        <Link to="/">Accueil</Link> |{" "}
+        <Link to="/guides/">Liste des guides</Link>
       </nav>
 
-      <h2>Guide : {guide.name}</h2>
+      <h1>Guide : {guide.name}</h1>
       <p>{guide.sumup}</p>
       <p>{guide.texte}</p>
     </div>

@@ -9,20 +9,31 @@ const Guides = () => {
   return (
     <div className="pageContainer guideContainer">
       <Helmet>
+        <meta
+          property="og:url"
+          content="https://cabinett.netlify.app/guides/"
+        />
+        <meta
+          property="twitter:url"
+          content="https://cabinett.netlify.app/guides/"
+        />
         <title>Cabinett - Guides</title>
         <link rel="canonical" href="https://cabinett.netlify.app/guides/" />
-        <meta
-          name="description"
-          content="Description de toutes les guides "
-        />
+        <meta name="description" content="Description de toutes les guides " />
       </Helmet>
       <nav>
         <Link to="/">Accueil</Link> |
       </nav>
 
-      <h2>Liste des Guides</h2>
+      <h1>Liste des Guides</h1>
       <p>
-        Il n'est pas toujours évident de choisir les bons toilettes. En effet, entre les questions de goût et de style, chacun a des envies différentes en termes de confort et d'hygiène. Après tout, les WC sont un endroit où il fait bon être en phase avec soi-même. C'est pour cette raison que Cabi.net vous propose toute une série de guides pour vous permettre de faire le bon choix avant de vous demander quelle cuvette, quel abattant ou quel lave-mains vous voulez pour aller avec vos toilettes.
+        Il n'est pas toujours évident de choisir les bons toilettes. En effet,
+        entre les questions de goût et de style, chacun a des envies différentes
+        en termes de confort et d'hygiène. Après tout, les WC sont un endroit où
+        il fait bon être en phase avec soi-même. C'est pour cette raison que
+        Cabi.net vous propose toute une série de guides pour vous permettre de
+        faire le bon choix avant de vous demander quelle cuvette, quel abattant
+        ou quel lave-mains vous voulez pour aller avec vos toilettes.
       </p>
       <section className="multipleGuidesContainer">
         {data.guides.map((g) => (

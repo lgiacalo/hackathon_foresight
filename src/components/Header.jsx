@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <header>
-      <h1>
+      <div>
         <Link to="/" title="Cabi.net">
           <img
             className="logo"
@@ -18,7 +18,7 @@ function Header() {
             alt="logo cabi.net"
           />
         </Link>
-      </h1>
+      </div>
       <div className="navbar">
         <input
           className="search"
@@ -33,23 +33,26 @@ function Header() {
           </button>
           <ul className={open ? "menu-list" : "hidden"}>
             <li>
-              <Link to="/toilettes-occidentales/" title="Toilettes occidentales">
-              Toilettes occidentales
+              <Link
+                to="/toilettes-occidentales/"
+                title="Toilettes occidentales"
+              >
+                Toilettes occidentales
               </Link>
             </li>
             <li>
               <Link to="/toilettes-classiques/" title="Toilettes classiques">
-              Toilettes classiques
+                Toilettes classiques
               </Link>
             </li>
             <li>
               <Link to="/toilettes-japonaises/" title="Toilettes japonaises">
-              Toilettes japonaises
+                Toilettes japonaises
               </Link>
             </li>
             <li>
               <Link to="/toilettes-seches/" title="Toilettes seches">
-              Toilettes seches
+                Toilettes seches
               </Link>
             </li>
           </ul>
