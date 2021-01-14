@@ -15,8 +15,7 @@ const Home = () => {
         />
       </Helmet>
       <h2>Home Page</h2>
-      <Link to="/categories/">Liste Catégories</Link> |
-      <Link to="/toilettes-occidentaux/">Catégorie Toilette sèche</Link> |
+      <Link to="/categories/">Liste Catégories</Link>
       <section>
         <article className="animation-phare">
           <Link to="/" title="">
