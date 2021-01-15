@@ -11,14 +11,17 @@ const Guides = () => {
       <Helmet>
         <meta
           property="og:url"
-          content="https://cabinet-404.netlify.app/guides/"
+          content="https://cabinet-hackathon.netlify.app/guides/"
         />
         <meta
           name="twitter:url"
-          content="https://cabinet-404.netlify.app/guides/"
+          content="https://cabinet-hackathon.netlify.app/guides/"
         />
         <title>Cabinet - Votre expert en toilettes - Guides</title>
-        <link rel="canonical" href="https://cabinet-404.netlify.app/guides/" />
+        <link
+          rel="canonical"
+          href="https://cabinet-hackathon.netlify.app/guides/"
+        />
         <meta
           name="description"
           content="Cabinet - Votre expert en toilettes - Description de toutes les guides disponibles"

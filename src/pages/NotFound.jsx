@@ -9,16 +9,16 @@ const NotFound = () => {
       <Helmet>
         <meta
           property="og:url"
-          content="https://cabinet-404.netlify.app/not-found-404"
+          content="https://cabinet-hackathon.netlify.app/not-found-404"
         />
         <meta
           name="twitter:url"
-          content="https://cabinet-404.netlify.app/not-found-404"
+          content="https://cabinet-hackathon.netlify.app/not-found-404"
         />
         <title>Cabinet - Votre expert en toilettes - 404 Not Found</title>
         <link
           rel="canonical"
-          href="https://cabinet-404.netlify.app/not-found-404"
+          href="https://cabinet-hackathon.netlify.app/not-found-404"
         />
         <meta name="description" content="Cabinet - page not found " />
       </Helmet>

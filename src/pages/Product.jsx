@@ -29,16 +29,16 @@ const Product = () => {
       <Helmet>
         <meta
           property="og:url"
-          content={`https://cabinet-404.netlify.app/${slug_category}/${slug_product}/`}
+          content={`https://cabinet-hackathon.netlify.app/${slug_category}/${slug_product}/`}
         />
         <meta
           name="twitter:url"
-          content={`https://cabinet-404.netlify.app/${slug_category}/${slug_product}/`}
+          content={`https://cabinet-hackathon.netlify.app/${slug_category}/${slug_product}/`}
         />
         <title>Cabinet - Votre expert en toilettes - {product.name}</title>
         <link
           rel="canonical"
-          href={`https://cabinet-404.netlify.app/${slug_category}/${slug_product}/`}
+          href={`https://cabinet-hackathon.netlify.app/${slug_category}/${slug_product}/`}
         />
         <meta name="description" content={product.description} />
       </Helmet>
