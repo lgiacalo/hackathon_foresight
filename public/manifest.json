@@ -18,10 +18,6 @@
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any maskable"
-    },
-    {
-      "src": "img/wclum.svg",
-      "sizes": "any"
     }
   ],
   "start_url": ".",
